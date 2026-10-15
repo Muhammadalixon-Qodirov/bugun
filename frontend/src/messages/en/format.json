@@ -1,0 +1,20 @@
+{
+  "units": {
+    "kg": "kg",
+    "litr": "L",
+    "dona": "pcs",
+    "m2": "m²",
+    "m3": "m³",
+    "xizmat": "service"
+  },
+  "roles": {
+    "entrepreneur": "Entrepreneur",
+    "market_admin": "Market administration",
+    "admin": "Administrator"
+  },
+  "today": "today",
+  "yesterday": "yesterday",
+  "daysAgo": "{count, plural, one {# day ago} other {# days ago}}",
+  "until": "until {date}",
+  "since": "since {date}"
+}

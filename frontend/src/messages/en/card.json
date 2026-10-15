@@ -1,0 +1,6 @@
+{
+  "below": "{percent}% below",
+  "belowTitle": "Compared with the market average",
+  "marketAverage": "Market average {price}",
+  "minOrder": "min. {amount} {unit}"
+}

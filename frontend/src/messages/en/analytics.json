@@ -1,0 +1,220 @@
+{
+  "metaTitle": "{name}: price analysis",
+  "metaDescription": "{name} prices: chart, seasons, provinces, forecast and buying advice.",
+  "tab": "Analysis",
+  "eyebrow": "{category} · market analysis",
+  "offersLink": "Offers",
+  "csv": "Download CSV",
+  "filters": {
+    "label": "Analysis filters",
+    "region": "Region",
+    "period": "Period"
+  },
+  "quality": {
+    "live": "{count, plural, one {# live price} other {# live prices}}",
+    "deals": "{count, plural, one {# confirmed deal} other {# confirmed deals}}",
+    "last": "last price {when}",
+    "sources": "Sources, last 30 days"
+  },
+  "advice": {
+    "title": "Summary",
+    "buyer": "For buyers",
+    "seller": "For sellers",
+    "disclaimer": "This is advice, not a guarantee.",
+    "noReasons": "No clear signal yet: the price is as usual.",
+    "pressure": "Demand and supply",
+    "items": {
+      "trend_up": "The price has been rising for 4 weeks: about {share} a week.",
+      "trend_down": "The price has been falling for 4 weeks: about {share} a week.",
+      "season_dearer": "In {month} the price is usually {share} higher than in {fromMonth}.",
+      "season_cheaper": "In {month} the price is usually {share} lower than in {fromMonth}.",
+      "surplus": "Supply is higher than usual: a good time to buy.",
+      "shortage": "Demand is higher than usual: the price may rise further.",
+      "below_year": "The price is {share} below its yearly average.",
+      "above_year": "The price is {share} above its yearly average.",
+      "holiday_soon": "{days, plural, one {# day} other {# days}} until {title}: demand and prices for this product usually rise.",
+      "holiday_now": "Now: {title} (until {until}), demand is higher than usual."
+    },
+    "reasons": "Reasons"
+  },
+  "now": {
+    "median": "Current median · {scope}",
+    "range": "half are between {from} and {to}",
+    "notEnough": "Fewer than 3 live prices right now: the chart shows the history.",
+    "changes": "Change",
+    "d1": "1 day",
+    "d7": "7 days",
+    "d30": "30 days",
+    "y1": "1 year",
+    "noChange": "—",
+    "trendWeekly": "{trend}: {share} a week"
+  },
+  "chart": {
+    "title": "Price history",
+    "subtitle": "Median and the middle half (p25–p75)",
+    "median": "Median",
+    "band": "middle half",
+    "forecast": "Forecast",
+    "forecastRange": "forecast range",
+    "events": "Events",
+    "aria": "{name} price chart",
+    "empty": "No price history for this period and region.",
+    "forecastNote": "An estimate, not a guarantee: 80% of last year's errors fit inside this range.",
+    "forecastError": "Average error one week ahead: {share} ({weeks, plural, one {# week} other {# weeks}} tested)",
+    "tableToggle": "Table",
+    "chartToggle": "Chart",
+    "date": "Date",
+    "offers": "Prices"
+  },
+  "records": {
+    "title": "Records",
+    "max": "Highest",
+    "min": "Lowest",
+    "byYear": "By year",
+    "year": "Year",
+    "cause": "possible cause: {cause}"
+  },
+  "jumps": {
+    "title": "Sharp moves",
+    "subtitle": "Weeks that moved more than 15% and what happened around them",
+    "week": "Week of {date}",
+    "noCause": "No cause recorded",
+    "possible": "Possible causes:",
+    "frost": "Frost: {temp}°C",
+    "heat": "Heat: {temp}°C",
+    "empty": "No sharp moves in this period."
+  },
+  "regions": {
+    "title": "By province",
+    "subtitle": "Median, cheapest first",
+    "vs": "{diff} vs the selected region",
+    "prices": "{count, plural, one {# price} other {# prices}}",
+    "districts": "Districts",
+    "markets": "Markets",
+    "empty": "Not enough data.",
+    "statsLink": "Province statistics"
+  },
+  "arbitrage": {
+    "title": "Buy here, sell there",
+    "subtitle": "Where to buy cheap and sell dear, with transport costs taken off",
+    "route": "{buy} → {sell}",
+    "detail": "{buyPrice} → {sellPrice}, transport {transport} ({km} km)",
+    "net": "net {net} UZS/{unit}",
+    "rate": "Transport, UZS per {unit} per 100 km",
+    "approx": "Distances are approximate.",
+    "empty": "No profitable route found."
+  },
+  "season": {
+    "title": "Seasons",
+    "subtitle": "The usual price each month against the yearly level",
+    "cheapest": "Cheapest month: {month}",
+    "dearest": "Dearest month: {month}",
+    "aria": "Price index by month",
+    "vsUsual": "{share} vs usual",
+    "weekdays": "Which day is cheapest?",
+    "weekdaysSub": "Based on the last {weeks} weeks",
+    "noWeekday": "No difference between weekdays.",
+    "cheapestDay": "Cheapest day: {day}",
+    "weekdayAria": "Price by weekday",
+    "dearestDay": "Dearest day: {day}",
+    "samples": "based on {count, plural, one {# month} other {# months}} of data"
+  },
+  "supply": {
+    "title": "Supply",
+    "sellers": "{count, plural, one {# seller} other {# sellers}}",
+    "sellersChange": "{share} this week",
+    "listings": "{count, plural, one {# listing} other {# listings}}",
+    "stock": "total stock {amount} {unit} (from {count, plural, one {# listing} other {# listings}})",
+    "retail": "Retail is {share} dearer",
+    "bargain": "Bargaining brings it about {share} lower ({count, plural, one {# deal} other {# deals}})"
+  },
+  "reasons": {
+    "title": "What sellers say",
+    "subtitle": "Reasons given for price changes, last 30 days",
+    "up": "Price up",
+    "down": "Price down"
+  },
+  "weather": {
+    "title": "Weather",
+    "subtitle": "{scope}: daily low and high temperature",
+    "countryAverage": "Uzbekistan average",
+    "tmax": "High",
+    "tmin": "Low",
+    "precip": "Rain",
+    "extremes": "Extreme days",
+    "aria": "Temperature chart",
+    "precipTotal": "Rain over the period: {mm} mm · {days, plural, one {# wet day} other {# wet days}}"
+  },
+  "fx": {
+    "title": "Exchange rates",
+    "subtitle": "Central Bank, change over the period",
+    "usd": "1 $ = {rate} UZS",
+    "corr": "This product's price moves with the dollar (r = {r}). That's co-movement, not a cause.",
+    "aria": "Dollar rate chart"
+  },
+  "links": {
+    "title": "Keep exploring",
+    "compare": "Compare with another product",
+    "map": "Demand and supply map",
+    "heatmap": "Prices by province",
+    "ask": "Ask a question",
+    "askQuestion": "How has the price of {product} changed?"
+  },
+  "holidays": {
+    "navruz": "Navruz",
+    "navruzDemand": "Demand rose before Navruz",
+    "eidAdha": "Eid al-Adha",
+    "eidFitr": "Eid al-Fitr",
+    "eidFitrDemand": "Demand before Eid al-Fitr",
+    "ramadan": "Ramadan",
+    "weddings": "Wedding season",
+    "newYear": "New Year"
+  },
+  "forecast": {
+    "title": "How the forecast was made",
+    "method": {
+      "naive": "Unchanged price",
+      "last_year": "Last year's pattern",
+      "season_trend": "Season and trend",
+      "ml": "ML model (gradient boosting)"
+    },
+    "driver": {
+      "season": "Season",
+      "trend": "Recent trend",
+      "last_year": "Last year",
+      "history": "Price history",
+      "holiday": "Holidays",
+      "weather": "Weather",
+      "fx": "Dollar rate",
+      "demand_supply": "Demand and supply"
+    },
+    "won": "<b>{method}</b> was the most accurate over the past year: {error} average error vs {naive} for an unchanged price, {skill} more accurate.",
+    "naiveWon": "Keeping the price <b>unchanged</b> was the most accurate over the past year ({error} average error); the other methods did not beat it.",
+    "errors": "Error by method",
+    "errorsHint": "Average error 1–4 weeks ahead, tested on {weeks, plural, one {# week} other {# weeks}}. Lower is better.",
+    "chosen": "chosen",
+    "weeks": "What moves each week",
+    "weeksHint": "Change from last week's average ({price}), split into each driver's exact share (Shapley). The parts add up to the total.",
+    "total": "Total",
+    "flat": "No change expected: last week's price carries over.",
+    "seasonNote": "The seasonal index is built from the whole history, so past accuracy may look slightly better than it is.",
+    "aria": "{week}: driver shares",
+    "mlNote": "This forecast comes from the ML model: it is retrained every night on 3 years of weekly prices, season, holidays, weather, the dollar rate and demand and supply, compared with the other methods on the same past weeks, and chosen for the smallest error.",
+    "mlBadge": "ML"
+  },
+  "anomalies": {
+    "mark": "{region}: unusual day, {value} vs expected {reference}",
+    "excluded": "left out of the chart and statistics",
+    "checking": "being checked, still on the chart",
+    "layer": {
+      "temporal": "far from its own last 4 weeks",
+      "cross_section": "other provinces did not move like this"
+    },
+    "title": "{count, plural, one {# unusual day} other {# unusual days}} in this period",
+    "note": "Days when a province's median was far from what was expected are marked along the bottom of the chart. ✕ is a confirmed day, left out of the chart and statistics; ? is one of the last 4 days, kept on the chart and only marked so real news is never hidden.",
+    "value": "{value}, expected {reference}",
+    "legendExcluded": "Day left out of the chart",
+    "legendChecking": "Day being checked",
+    "leftOut": "{count, plural, one {# suspicious day was} other {# suspicious days were}} left out of the figures."
+  }
+}

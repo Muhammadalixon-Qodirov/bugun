@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "title": "So'rovlarim",
+    "detail": "So'rov: {product}"
+  },
+  "eyebrow": "Xarid",
+  "title": "So'rovlar",
+  "description": "Kerakli mahsulot va miqdorni yozing: viloyatingizdagi sotuvchilar narx taklif qiladi, eng arzoni tepada turadi.",
+  "deadline": "{date}, {time} gacha",
+  "diff": {
+    "same": "bozor narxida",
+    "cheaper": "bozordan {percent}% arzon",
+    "dearer": "bozordan {percent}% qimmat"
+  },
+  "contact": {
+    "show": "Kontaktni ko'rish",
+    "opening": "Ochilmoqda…",
+    "telegram": "Telegramda yozish",
+    "none": "Bog'lanish usuli ko'rsatilmagan."
+  },
+  "notBuyer": {
+    "title": "Bozor ma'muriyati so'rov yubormaydi",
+    "text": "Xarid so'rovlarini tadbirkorlar yuboradi. Sizning hisobingiz bozor narxlarini kuzatish va hisobotlar uchun: ular kabinetda.",
+    "action": "Kabinetga o'tish"
+  },
+  "form": {
+    "title": "Yangi so'rov",
+    "hint": "So'rov viloyatingizda shu mahsulotni sotayotgan sotuvchilarga boradi.",
+    "limit": "Bir vaqtda ko'pi bilan {max} ta ochiq so'rov bo'lishi mumkin. Birini yoping yoki muddati tugashini kuting.",
+    "product": "Mahsulot",
+    "search": "Mahsulotni qidiring: pomidor, sement…",
+    "all": "Hammasi",
+    "empty": "Bunday mahsulot topilmadi.",
+    "change": "O'zgartirish",
+    "quantity": "Miqdor",
+    "maxPrice": "Eng yuqori narx",
+    "maxPriceHint": "Sotuvchilar qancha to'lashga tayyorligingizni ko'radi.",
+    "days": "Javob muddati",
+    "daysValue": "{count} kun",
+    "daysHint": "Shu muddatgacha sotuvchilar narx taklif qila oladi.",
+    "note": "Izoh",
+    "notePlaceholder": "Masalan: navi, yetkazib berish, qachon kerak",
+    "noteHint": "Ismingiz va kontaktingiz sotuvchilarga ko'rinmaydi.",
+    "submit": "So'rov yuborish",
+    "sending": "Yuborilmoqda…"
+  },
+  "validation": {
+    "quantityRequired": "Miqdorni yozing.",
+    "quantity": "Miqdor 0 dan katta va 10 000 000 dan oshmasin.",
+    "maxPrice": "Narx 50 so'mdan 50 000 000 so'mgacha bo'lsin.",
+    "noteMax": "Izoh {max} belgidan oshmasin.",
+    "days": "Javob muddati {min} kundan {max} kungacha bo'lsin."
+  },
+  "sent": {
+    "title": "So'rov {count} ta sotuvchiga yuborildi",
+    "text": "Takliflar kelishi bilan shu yerda va Telegram botda ko'rasiz. Eng arzoni tepada turadi.",
+    "noneTitle": "Viloyatingizda hozircha faol sotuvchi yo'q",
+    "noneText": "So'rov ochiq turibdi: muddat tugaguncha shu mahsulotni joylagan sotuvchilar uni ko'radi.",
+    "open": "So'rovni ochish",
+    "another": "Yana so'rov"
+  },
+  "list": {
+    "title": "Mening so'rovlarim",
+    "openCount": "{count}/{max} ochiq",
+    "emptyTitle": "Hali so'rov yo'q",
+    "emptyText": "Birinchi so'rovingizni yuqoridagi formadan yuboring.",
+    "product": "Mahsulot",
+    "offers": "Takliflar",
+    "best": "Eng arzon",
+    "deadline": "Muddat",
+    "offersShort": "{count} ta taklif",
+    "bestShort": "eng arzoni",
+    "noOffers": "Taklif yo'q"
+  },
+  "detail": {
+    "back": "Mening so'rovlarim",
+    "missingTitle": "So'rov topilmadi",
+    "missingText": "Bu so'rov o'chirilgan yoki boshqa hisobga tegishli.",
+    "missingAction": "So'rovlarimga qaytish",
+    "maxPrice": "Eng yuqori narx",
+    "close": "So'rovni yopish",
+    "chosenToast": "Taklif tanlandi. Sotuvchi tasdiqlashi kutilmoqda.",
+    "closedToast": "So'rov yopildi",
+    "stats": {
+      "offers": "Takliflar",
+      "offersHint": "narx bergan sotuvchilar",
+      "best": "Eng arzon taklif",
+      "none": "hali taklif yo'q",
+      "median": "Bozor narxi",
+      "medianNone": "ma'lumot yetarli emas",
+      "savings": "Tejaysiz",
+      "savingsHint": "so'm, bozor narxiga nisbatan",
+      "total": "Jami",
+      "totalHint": "eng arzon taklif bo'yicha"
+    },
+    "offersTitle": "Takliflar",
+    "empty": {
+      "openTitle": "Takliflar kutilmoqda",
+      "openText": "Sotuvchilar narx yuborishi bilan shu yerda paydo bo'ladi. Telegram botda ham xabar olasiz.",
+      "closedTitle": "Taklif kelmadi",
+      "closedText": "Bu so'rovga hech kim narx bermadi. Boshqa miqdor yoki muddat bilan qayta urinib ko'ring."
+    },
+    "closeDialog": {
+      "title": "So'rov yopilsinmi?",
+      "text": "Sotuvchilar endi narx yubora olmaydi va tanlangan takliflarni tasdiqlay olmaydi.",
+      "confirm": "So'rovni yopish"
+    },
+    "cheapest": "Eng arzon",
+    "total": "Jami: {sum} so'm",
+    "canSupply": "Bera oladi: {amount}",
+    "choose": "Tanlash",
+    "waiting": "Sotuvchi tasdig'i kutilmoqda",
+    "rejected": "Sotuvchi rad etdi",
+    "chosenBadge": "Siz tanladingiz"
+  }
+}

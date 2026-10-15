@@ -1,0 +1,45 @@
+{
+  "metaFallback": "Товар",
+  "metaTitle": "Цена: {name}",
+  "metaPrice": "Средняя оптовая цена сегодня: {price} сум/{unit}. {offers, plural, one {# предложение} few {# предложения} many {# предложений} other {# предложения}} продавцов.",
+  "metaOffers": "{name}: предложения и цены продавцов.",
+  "breadcrumb": "Навигация",
+  "eyebrow": "{category} · рыночная цена",
+  "median": "Средняя цена (медиана) · {scope}",
+  "sellers": "{count, plural, one {# продавец} few {# продавца} many {# продавцов} other {# продавца}}",
+  "source": "источник: продавцы",
+  "widened": "В регионе «{region}» мало цен, поэтому средняя рассчитана по региону «{scope}».",
+  "average": "Средняя цена",
+  "collecting": "Собираем данные",
+  "collectingText": "Средняя цена появится, когда цены укажут минимум 3 продавца. Сейчас: {offers}. Одному случайному числу мы не доверяем.",
+  "byProvince": "По областям",
+  "noData": "Пока недостаточно данных.",
+  "offers": "Предложения",
+  "offersMeta": "{region} · {count} · сначала дешёвые",
+  "emptyTitle": "В этом регионе пока нет предложений",
+  "emptyText": "Выберите вверху всю область или весь Узбекистан.",
+  "cheapest": "Дешевле всех",
+  "diffTitle": "По сравнению со средней ценой",
+  "minOrder": "мин. {amount} {unit}",
+  "stock": "в наличии: {amount} {unit}",
+  "middleHalf": "половина — от {from} до {to}",
+  "analysis": "Анализ и прогноз",
+  "interest": {
+    "visitors": "Сегодня интересовались: {count}",
+    "deals": "{count, plural, one {# сделка} few {# сделки} many {# сделок} other {# сделки}} за неделю",
+    "dealMedian": "в среднем {price} сум"
+  },
+  "pressure": "Спрос и предложение",
+  "pressureDetail": "Спрос {now} (обычно {usual}) · продавцов {sellers} (обычно {sellersUsual}), последние 7 дней",
+  "reference": {
+    "label": "Официальные цены",
+    "hint": "Цена источника пересчитана на единицу каталога.",
+    "source": {
+      "uzex": "Биржевая цена (UzEx)",
+      "narxtahlil": "Официальный мониторинг цен"
+    },
+    "quote": "{name}: {price} сум/{unit}",
+    "national": "по всей стране",
+    "open": "Источник"
+  }
+}

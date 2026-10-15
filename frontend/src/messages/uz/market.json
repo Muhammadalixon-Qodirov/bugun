@@ -1,0 +1,32 @@
+{
+  "categories": "Toifalar",
+  "deals": "Bozordan arzon",
+  "dealsTitle": "Bozordan arzon takliflar",
+  "allListings": "Barcha e'lonlar",
+  "searchTitle": "«{q}» bo'yicha",
+  "count": "{formatted} ta e'lon · {region}",
+  "filters": "Filtrlar",
+  "sortBy": "Saralash:",
+  "sort": {
+    "new": "Yangilari",
+    "deal": "Bozordan arzon",
+    "price_asc": "Arzonroq",
+    "price_desc": "Qimmatroq",
+    "popular": "Ko'p ko'rilgan"
+  },
+  "tradeType": "Savdo turi",
+  "product": "Mahsulot",
+  "findProduct": "Mahsulotni topish",
+  "price": "Narx, so'm",
+  "from": "dan",
+  "to": "gacha",
+  "priceFrom": "Narx dan",
+  "priceTo": "Narx gacha",
+  "show": "Ko'rsatish",
+  "priceRange": "{min} – {max} so'm",
+  "priceMin": "{min} so'mdan",
+  "priceMax": "{max} so'mgacha",
+  "emptyTitle": "E'lon topilmadi",
+  "emptyText": "Filtrni yoki hududni o'zgartirib ko'ring: boshqa hududlarda taklif bo'lishi mumkin.",
+  "loadMore": "Ko'proq ko'rsatish"
+}

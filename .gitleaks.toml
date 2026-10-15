@@ -1,0 +1,19 @@
+# gitleaks configuration: the default rules plus allowlists for known,
+# harmless test values. Run locally with:
+#   gitleaks git --config .gitleaks.toml --redact .
+title = "bugun"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Dummy secret used by the rate limiter tests"
+regexTarget = "match"
+regexes = ['''s3cret''']
+
+[[allowlists]]
+description = "Empty values in .env.example files (the rule reads the next line as the value)"
+condition = "AND"
+paths = ['''(^|/)\.env\.example$''']
+regexTarget = "match"
+regexes = ['''(?i)^[A-Z0-9_]*(KEY|SECRET|TOKEN|PASSWORD)=\n''']

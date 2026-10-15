@@ -1,0 +1,45 @@
+{
+  "metaFallback": "Mahsulot",
+  "metaTitle": "{name} narxi",
+  "metaPrice": "Bugungi o'rtacha ulgurji narx: {price} so'm/{unit}. {offers} ta sotuvchi taklifi.",
+  "metaOffers": "{name}: sotuvchilar takliflari va narxlari.",
+  "breadcrumb": "Yo'l",
+  "eyebrow": "{category} · bozor narxi",
+  "median": "O'rtacha narx (median) · {scope}",
+  "sellers": "{count} ta sotuvchi",
+  "source": "manba: sotuvchilar",
+  "widened": "{region} bo'yicha narxlar kam, shuning uchun o'rtacha narx {scope} bo'yicha hisoblandi.",
+  "average": "O'rtacha narx",
+  "collecting": "Ma'lumot yig'ilmoqda",
+  "collectingText": "O'rtacha narx kamida 3 ta sotuvchi narxi bo'lganda chiqadi. Hozir: {offers} ta. Tasodifiy bitta raqamga ishonmaymiz.",
+  "byProvince": "Viloyatlar bo'yicha",
+  "noData": "Hali yetarli ma'lumot yo'q.",
+  "offers": "Takliflar",
+  "offersMeta": "{region} · {count} ta · arzonidan boshlab",
+  "emptyTitle": "Bu hududda hali taklif yo'q",
+  "emptyText": "Yuqoridagi hudud tanlagichdan butun viloyat yoki butun O'zbekistonni tanlab ko'ring.",
+  "cheapest": "Eng arzon",
+  "diffTitle": "O'rtacha narxga nisbatan",
+  "minOrder": "min. {amount} {unit}",
+  "stock": "bor: {amount} {unit}",
+  "middleHalf": "yarmi {from} – {to} oralig'ida",
+  "analysis": "Tahlil va prognoz",
+  "interest": {
+    "visitors": "Bugun {count} kishi qiziqdi",
+    "deals": "bu hafta {count} ta savdo",
+    "dealMedian": "o'rtacha {price} so'm"
+  },
+  "pressure": "Talab va taklif",
+  "pressureDetail": "Talab {now} (odatda {usual}) · sotuvchilar {sellers} (odatda {sellersUsual}), oxirgi 7 kun",
+  "reference": {
+    "label": "Rasmiy narxlar",
+    "hint": "Manbadagi narx katalog birligiga qayta hisoblangan.",
+    "source": {
+      "uzex": "Birja narxi (UzEx)",
+      "narxtahlil": "Rasmiy narx kuzatuvi"
+    },
+    "quote": "{name}: {price} so'm/{unit}",
+    "national": "butun mamlakat bo'yicha",
+    "open": "Manba"
+  }
+}

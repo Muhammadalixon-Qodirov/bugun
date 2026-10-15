@@ -1,0 +1,38 @@
+{
+  "language": "Language",
+  "localeNames": {
+    "uz": "O'zbekcha",
+    "en": "English",
+    "ru": "Русский"
+  },
+  "som": "UZS",
+  "perUnit": "UZS/{unit}",
+  "cancel": "Cancel",
+  "save": "Save",
+  "saved": "Saved",
+  "delete": "Delete",
+  "clear": "Clear",
+  "clearAll": "Clear all",
+  "close": "Close",
+  "back": "Back",
+  "previous": "Previous",
+  "next": "Next",
+  "all": "All",
+  "notFound": "Nothing found",
+  "optional": "optional",
+  "wholesale": "Wholesale",
+  "retail": "Retail",
+  "wholesaleLower": "wholesale",
+  "retailLower": "retail",
+  "wholeCountry": "All of Uzbekistan",
+  "market": "Market",
+  "loading": "Loading…",
+  "saving": "Saving…",
+  "sections": "Sections",
+  "theme": "Theme",
+  "themes": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}

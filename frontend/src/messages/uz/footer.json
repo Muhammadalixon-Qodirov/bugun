@@ -1,0 +1,19 @@
+{
+  "about": "O'zbekiston bozorlaridagi real ulgurji narxlar. Har bir e'lon bozor o'rtachasi bilan solishtiriladi.",
+  "categories": "Toifalar",
+  "forBuyers": "Xaridorlar uchun",
+  "deals": "Bozordan arzon takliflar",
+  "cheapest": "Eng arzonlari",
+  "wholesalePrices": "Ulgurji narxlar",
+  "forSellers": "Sotuvchilar uchun",
+  "postListing": "E'lon joylash",
+  "priceByText": "Narxni matn bilan yuborish",
+  "bot": "Telegram bot",
+  "disclaimer": "Bugun savdoda vositachi emas: to'lov va yetkazib berish sotuvchi bilan bevosita kelishiladi. Narxlar sotuvchilar ma'lumoti asosida hisoblanadi.",
+  "analytics": "Tahlil",
+  "heatmap": "Viloyatlar bo'yicha narxlar",
+  "compare": "Narxlarni solishtirish",
+  "map": "Talab-taklif xaritasi",
+  "requestQuote": "Sotuvchilardan narx so'rash",
+  "analyst": "Tahlilchiga savol"
+}

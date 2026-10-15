@@ -1,0 +1,27 @@
+{
+  "button": "Narx tushsa xabar ber",
+  "watching": "Kuzatilmoqda",
+  "title": "Narx tushsa xabar beramiz",
+  "description": "{product} arzonlashsa, Telegram bot orqali xabar yuboramiz: kuniga ko'pi bilan bir marta, 08:00 yoki 17:00 da.",
+  "region": "Hudud",
+  "trade": "Savdo turi",
+  "maxPrice": "... so'mdan arzon bo'lsa (ixtiyoriy)",
+  "maxPriceHint": "Bo'sh qoldirsangiz, bozor medianidan kamida 5% arzon narx chiqqanda xabar beramiz.",
+  "save": "Kuzatishni boshlash",
+  "update": "Saqlash",
+  "saved": "Kuzatuv saqlandi",
+  "botOff": "Xabarlar Telegram bot orqali keladi, bot esa hozir uzilgan. Profilda botni ulang.",
+  "connectBot": "Botni ulash",
+  "signIn": "Kuzatish uchun kiring",
+  "list": {
+    "title": "Kuzatuvlarim",
+    "hint": "Narx tushganda bot xabar beradigan mahsulotlar ({max} tagacha)",
+    "empty": "Hali hech narsa kuzatilmayapti. Mahsulot sahifasida «Narx tushsa xabar ber» tugmasini bosing.",
+    "below": "{price} so'mdan arzon",
+    "anyDrop": "mediandan 5% arzon",
+    "notified": "oxirgi xabar: {when}",
+    "remove": "Kuzatishni to'xtatish",
+    "removed": "Kuzatuv o'chirildi",
+    "medianDrop": "median {price} so'mgacha tushsa ham"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Bugun — market prices",
+  "description": "Real wholesale prices and demand at Uzbekistan's markets. Post your price, get buyers.",
+  "catalog": "Catalog",
+  "backToMarket": "Back to the market",
+  "error": {
+    "eyebrow": "Error",
+    "title": "Something went wrong",
+    "text": "The page couldn't be loaded. Try again in a moment — your data is safe.",
+    "retry": "Try again",
+    "code": "Code: {digest}"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The listing may have expired or been deleted, or the link may be wrong.",
+    "deals": "Below-market offers"
+  }
+}

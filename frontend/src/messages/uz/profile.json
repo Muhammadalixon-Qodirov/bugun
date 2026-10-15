@@ -1,0 +1,116 @@
+{
+  "form": {
+    "roles": {
+      "entrepreneur": "Sotish ham, sotib olish ham: narx va e'lon joylaysiz, xarid uchun so'rov yuborasiz.",
+      "market_admin": "Bozor narxlarini kuzatish va viloyat bo'yicha haftalik hisobot. Sotish va so'rov yo'q."
+    },
+    "errors": {
+      "role": "Rolni tanlang.",
+      "region": "Hududni tanlang.",
+      "publicNameMax": "{max} belgidan oshmasin.",
+      "consent": "Davom etish uchun rozilik kerak.",
+      "market": "Bozorni tanlang."
+    },
+    "saved": "Profil saqlandi",
+    "steps": {
+      "role": "Kim siz?",
+      "roleHint": "Shunga qarab sizga kerakli sahifalarni ko'rsatamiz. Keyin profilda o'zgartirish mumkin.",
+      "place": "Qayerda ishlaysiz?",
+      "placeHint": "Narxlar va takliflar shu hudud bo'yicha ko'rsatiladi.",
+      "sell": "Nima bilan savdo qilasiz?",
+      "sellHint": "Ixtiyoriy. Toifalar va do'kon nomi xaridorlarga sizni topishga yordam beradi."
+    },
+    "roleGroup": "Rol",
+    "province": "Viloyat",
+    "district": "Tuman yoki shahar",
+    "choose": "Tanlang",
+    "chooseProvinceFirst": "Avval viloyatni tanlang",
+    "chooseDistrictFirst": "Avval hududni tanlang",
+    "market": "Bozor",
+    "marketOptional": "Bozor (ixtiyoriy)",
+    "noMarkets": "Bu hududda hali bozor qo'shilmagan.",
+    "categories": "Toifalar (ixtiyoriy)",
+    "publicName": "Do'kon yoki ko'rinadigan nom (ixtiyoriy)",
+    "publicNamePlaceholder": "Masalan: Test Sabzavot",
+    "publicNameHint": "Xaridorlar shu nomni ko'radi. Telefon raqamingiz hech kimga ko'rsatilmaydi.",
+    "consent": "Ism, telefon va hududim faqat platforma ishlashi uchun qayta ishlanishiga roziman. Istalgan vaqtda profilda o'chira olaman.",
+    "stepsLabel": "Qadamlar",
+    "phoneNote": "Telefon raqamingiz shifrlangan holda saqlanadi va xaridorlarga faqat siz ruxsat bergandagina ko'rinadi.",
+    "continue": "Davom etish",
+    "consentNeeded": "Davom etish uchun rozilik belgisini qo'ying.",
+    "sections": {
+      "role": "Rol",
+      "roleHint": "Tadbirkor yoki bozor ma'muriyati",
+      "place": "Hudud",
+      "placeHint": "Narxlar shu hudud bo'yicha ko'rsatiladi",
+      "sell": "Savdo",
+      "sellHint": "Toifalar va do'kon nomi, ikkalasi ham ixtiyoriy"
+    },
+    "roleNotes": {
+      "entrepreneur": "Darhol faollashadi",
+      "market_admin": "Admin tasdiqlaydi"
+    },
+    "categoriesHint": "Tanlasangiz, shu toifalardagi xarid so'rovlari sizga tezroq yetib boradi. Keyin profilda o'zgartirish mumkin."
+  },
+  "page": {
+    "metaTitle": "Profil",
+    "approved": "Tasdiqlangan",
+    "pendingApproval": "Admin tasdig'i kutilmoqda",
+    "myProducts": "Mahsulotlarim",
+    "newListing": "E'lon",
+    "stats": {
+      "live": "Faol e'lonlar",
+      "liveHint": "jami {total} ta",
+      "views": "Ko'rishlar",
+      "viewsHint": "barcha e'lonlar bo'yicha",
+      "attention": "Uzaytirish kerak",
+      "attentionHint": "muddati tugayotgan yoki o'tgan",
+      "review": "Tekshiruvda",
+      "reviewHint": "narx bozordan keskin farq qilsa"
+    },
+    "nav": {
+      "details": "Ma'lumotlarim",
+      "contact": "Aloqa",
+      "bot": "Telegram bot",
+      "account": "Hisob"
+    },
+    "details": "Ma'lumotlarim",
+    "detailsHint": "Rol, hudud va savdo toifalaringiz",
+    "saveChanges": "O'zgarishlarni saqlash",
+    "contact": "Aloqa",
+    "contactHint": "Xaridorlar siz bilan qanday bog'lanadi. Kamida bittasi yoqilgan bo'lsin.",
+    "bot": "Telegram bot",
+    "botHint": "Narxni bir xabar bilan yuboring va so'rovlar haqida darhol xabar oling",
+    "deleteTitle": "Hisobni o'chirish",
+    "deleteHint": "Barcha ma'lumotlaringiz platformadan o'chiriladi",
+    "myStore": "Do'konim"
+  },
+  "contact": {
+    "telegram": "Telegramda yozish",
+    "telegramVia": "@{username} orqali chat ochiladi",
+    "noUsername": "Telegram hisobingizda username yo'q",
+    "phone": "Telefon raqami",
+    "phoneHint": "Faqat saytga kirgan xaridor tugmani bosganda ko'radi",
+    "noPhone": "Raqamingiz bizda yo'q"
+  },
+  "bot": {
+    "connected": "Bot ulandi",
+    "disconnected": "Bot uzildi",
+    "name": "Telegram bot",
+    "on": "Ulangan",
+    "off": "Uzilgan",
+    "text": "Telegram orqali kirganingiz uchun bot profilingizga avtomatik ulangan. Uzsangiz, bot sizga xabar yubormaydi.",
+    "open": "Botni ochish",
+    "disconnect": "Botni uzish",
+    "reconnect": "Botni qayta ulash",
+    "scanTitle": "Telefon kamerasi bilan skanerlang",
+    "scan": "skanerlang"
+  },
+  "delete": {
+    "deleted": "Ma'lumotlaringiz o'chirildi",
+    "confirm": "Ishonchingiz komilmi? Bu amalni qaytarib bo'lmaydi.",
+    "warning": "Profil, telefon raqami, e'lonlar va narxlar butunlay o'chiriladi. Qaytarib bo'lmaydi.",
+    "yes": "Ha, o'chirilsin",
+    "button": "Hisobni o'chirish"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Statistics",
+  "hint": "Each person is counted once a day. Your own visits don't count.",
+  "period": "Period",
+  "days": "{count} days",
+  "failed": "Couldn't load the statistics. Please try again later.",
+  "views": "Viewers",
+  "viewsHint": "unique people",
+  "contacts": "Contacts",
+  "contactsHint": "opened your contact",
+  "rate": "Contact rate",
+  "rateHint": "of viewers",
+  "deals": "Confirmed deals",
+  "dealsReported": "{count} pending",
+  "sold": "{amount} {unit} sold",
+  "series": {
+    "views": "Views",
+    "contacts": "Contacts"
+  },
+  "chartTitle": "By day",
+  "chartLabel": "Views and contacts per day over the last {days} days",
+  "marketTitle": "Compared with the market",
+  "marketCompare": "<b>{mine}</b> of viewers contacted you. Province average: <b>{market}</b>.",
+  "marketBasis": "{count, plural, one {# other listing} other {# other listings}} of this product in your province: {views} views and {contacts} contacts each on average.",
+  "lowResponse": "Your contact rate is under half the province average. Your price may be high: compare it with the market.",
+  "noMarket": "There aren't enough other listings of this product in your province to compare yet."
+}

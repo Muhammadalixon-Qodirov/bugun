@@ -1,0 +1,32 @@
+{
+  "categories": "Categories",
+  "deals": "Below market",
+  "dealsTitle": "Below-market offers",
+  "allListings": "All listings",
+  "searchTitle": "Results for “{q}”",
+  "count": "{count, plural, one {{formatted} listing} other {{formatted} listings}} · {region}",
+  "filters": "Filters",
+  "sortBy": "Sort by:",
+  "sort": {
+    "new": "Newest",
+    "deal": "Below market",
+    "price_asc": "Price: low to high",
+    "price_desc": "Price: high to low",
+    "popular": "Most viewed"
+  },
+  "tradeType": "Trade type",
+  "product": "Product",
+  "findProduct": "Find a product",
+  "price": "Price, UZS",
+  "from": "from",
+  "to": "to",
+  "priceFrom": "Price from",
+  "priceTo": "Price to",
+  "show": "Show",
+  "priceRange": "{min} – {max} UZS",
+  "priceMin": "from {min} UZS",
+  "priceMax": "up to {max} UZS",
+  "emptyTitle": "No listings found",
+  "emptyText": "Try changing the filters or the region: other areas may have offers.",
+  "loadMore": "Show more"
+}

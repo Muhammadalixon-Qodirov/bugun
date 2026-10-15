@@ -1,0 +1,12 @@
+.env
+.env.*
+.git
+bin/
+tmp/
+data/
+*.log
+*.dump
+*.test
+*.out
+Dockerfile
+.dockerignore

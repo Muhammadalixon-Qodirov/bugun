@@ -1,0 +1,6 @@
+{
+  "below": "{percent}% arzon",
+  "belowTitle": "Bozor o'rtachasiga nisbatan",
+  "marketAverage": "Bozor o'rtachasi {price}",
+  "minOrder": "min. {amount} {unit}"
+}

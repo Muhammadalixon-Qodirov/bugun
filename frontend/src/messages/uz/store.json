@@ -1,0 +1,47 @@
+{
+  "metaFallback": "Sotuvchi",
+  "metaTitle": "{name} — sotuvchi",
+  "metaDescription": "{name}, {place}: {count} ta faol e'lon va bugungi narxlar.",
+  "breadcrumb": "Yo'l",
+  "eyebrow": "Sotuvchi",
+  "stats": {
+    "listings": "Faol e'lonlar",
+    "products": "Mahsulotlar",
+    "lastActive": "Oxirgi narx",
+    "never": "Hali yo'q",
+    "rating": "Baho",
+    "noRating": "Hali yo'q"
+  },
+  "ratingSummary": "{average} · {count} ta baho",
+  "activeBadge": "Bu hafta narx yangilagan",
+  "activeBadgeHint": "Oxirgi 7 kun ichida kamida bitta narxni yangilagan",
+  "categories": "Toifalar",
+  "contactNote": "Bog'lanish uchun e'lonni oching: telefon va Telegram faqat e'lon sahifasida ko'rinadi.",
+  "listingsTitle": "E'lonlar",
+  "shown": "{count} ta e'lon",
+  "search": "Mahsulotni qidirish",
+  "clearSearch": "Qidiruvni tozalash",
+  "trade": "Savdo turi",
+  "sortBy": "Saralash:",
+  "sort": {
+    "new": "Yangilari",
+    "price_asc": "Arzonroq",
+    "price_desc": "Qimmatroq"
+  },
+  "emptyTitle": "Hozir faol e'lon yo'q",
+  "emptyText": "Bu sotuvchining hozircha amaldagi narxi yo'q. Bozordagi boshqa takliflarni ko'ring.",
+  "toMarket": "Bozorga o'tish",
+  "noMatchTitle": "Hech narsa topilmadi",
+  "noMatchText": "Qidiruv yoki filtrni o'zgartirib ko'ring.",
+  "resetFilters": "Filtrlarni tozalash",
+  "reviews": {
+    "title": "Xaridorlar bahosi",
+    "note": "Faqat tasdiqlangan savdodan keyin baho qo'yiladi",
+    "stars": "5 dan {stars}"
+  },
+  "notFoundTitle": "Sotuvchi topilmadi",
+  "notFoundText": "Havola eskirgan yoki bu foydalanuvchi endi sotuvchi emas bo'lishi mumkin.",
+  "openStore": "Sotuvchi sahifasi",
+  "storeOf": "{seller} sahifasi",
+  "store": "Do'kon"
+}

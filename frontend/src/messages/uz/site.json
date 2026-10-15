@@ -1,0 +1,18 @@
+{
+  "title": "Bugun — bozor narxlari",
+  "description": "O'zbekiston bozorlaridagi real ulgurji narxlar va talab. Narx bering — xaridor oling.",
+  "catalog": "Katalog",
+  "backToMarket": "Marketga qaytish",
+  "error": {
+    "eyebrow": "Xatolik",
+    "title": "Nimadir buzildi",
+    "text": "Sahifani yuklab bo'lmadi. Birozdan keyin qayta urinib ko'ring — ma'lumotlaringiz joyida.",
+    "retry": "Qayta urinish",
+    "code": "Kod: {digest}"
+  },
+  "notFound": {
+    "title": "Sahifa topilmadi",
+    "text": "E'lon muddati o'tgan, o'chirilgan yoki havola noto'g'ri bo'lishi mumkin.",
+    "deals": "Bozordan arzon takliflar"
+  }
+}

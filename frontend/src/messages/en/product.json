@@ -1,0 +1,45 @@
+{
+  "metaFallback": "Product",
+  "metaTitle": "{name} price",
+  "metaPrice": "Today's average wholesale price: {price} UZS/{unit}. {offers, plural, one {# seller offer} other {# seller offers}}.",
+  "metaOffers": "{name}: seller offers and prices.",
+  "breadcrumb": "Breadcrumb",
+  "eyebrow": "{category} · market price",
+  "median": "Average price (median) · {scope}",
+  "sellers": "{count, plural, one {# seller} other {# sellers}}",
+  "source": "source: sellers",
+  "widened": "There are few prices in {region}, so the average is calculated for {scope}.",
+  "average": "Average price",
+  "collecting": "Collecting data",
+  "collectingText": "The average appears once at least 3 sellers have posted a price. So far: {offers}. We don't trust a single random number.",
+  "byProvince": "By province",
+  "noData": "Not enough data yet.",
+  "offers": "Offers",
+  "offersMeta": "{region} · {count} · cheapest first",
+  "emptyTitle": "No offers in this area yet",
+  "emptyText": "Use the region picker at the top to choose a whole province or all of Uzbekistan.",
+  "cheapest": "Cheapest",
+  "diffTitle": "Compared with the average price",
+  "minOrder": "min. {amount} {unit}",
+  "stock": "in stock: {amount} {unit}",
+  "middleHalf": "half are between {from} and {to}",
+  "analysis": "Analysis and forecast",
+  "interest": {
+    "visitors": "{count, plural, one {# person} other {# people}} looked today",
+    "deals": "{count, plural, one {# deal} other {# deals}} this week",
+    "dealMedian": "average {price} UZS"
+  },
+  "pressure": "Demand and supply",
+  "pressureDetail": "Demand {now} (usually {usual}) · sellers {sellers} (usually {sellersUsual}), last 7 days",
+  "reference": {
+    "label": "Official prices",
+    "hint": "The source's price converted to the catalog unit.",
+    "source": {
+      "uzex": "Exchange price (UzEx)",
+      "narxtahlil": "Official price survey"
+    },
+    "quote": "{name}: {price} UZS/{unit}",
+    "national": "country-wide",
+    "open": "Source"
+  }
+}

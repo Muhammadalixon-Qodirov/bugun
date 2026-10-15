@@ -1,0 +1,27 @@
+{
+  "button": "Tell me when it's cheaper",
+  "watching": "Watching",
+  "title": "We'll tell you when the price drops",
+  "description": "When {product} gets cheaper, the Telegram bot will message you: at most once a day, at 08:00 or 17:00.",
+  "region": "Region",
+  "trade": "Trade type",
+  "maxPrice": "Cheaper than … UZS (optional)",
+  "maxPriceHint": "Leave it empty and we'll message you when a price at least 5% below the market median appears.",
+  "save": "Start watching",
+  "update": "Save",
+  "saved": "Watch saved",
+  "botOff": "Alerts come through the Telegram bot, which is disconnected now. Connect it in your profile.",
+  "connectBot": "Connect the bot",
+  "signIn": "Sign in to watch",
+  "list": {
+    "title": "My watches",
+    "hint": "Products the bot tells you about when prices drop (up to {max})",
+    "empty": "You're not watching anything yet. Tap “Tell me when it's cheaper” on a product page.",
+    "below": "below {price} UZS",
+    "anyDrop": "5% below the median",
+    "notified": "last alert: {when}",
+    "remove": "Stop watching",
+    "removed": "Watch removed",
+    "medianDrop": "or when the median falls to {price} UZS"
+  }
+}

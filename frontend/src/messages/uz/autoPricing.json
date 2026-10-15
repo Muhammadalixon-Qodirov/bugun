@@ -1,0 +1,29 @@
+{
+  "title": "Narxni avtomatik yangilash",
+  "hint": "Narx viloyatdagi bozor, talab va taklifga qarab siz bergan oraliqda o'zgaradi.",
+  "switch": "Avtomatik narxni yoqish",
+  "min": "Eng past narx, so'm/{unit}",
+  "max": "Eng yuqori narx, so'm/{unit}",
+  "current": "Hozirgi narx: {price} so'm/{unit}. U oraliq ichida bo'lishi kerak.",
+  "goal": "Maqsad",
+  "warning": "Narx kuniga ko'pi bilan {step}% o'zgaradi va siz bergan oraliqdan chiqmaydi. Bozordagi narxlarning yuqori choragidan (P75) oshmaydi. Har o'zgarish haqida bot xabar beradi va uni qaytarish mumkin.",
+  "offNote": "O'chiq: narx faqat siz o'zgartirganda o'zgaradi.",
+  "paused": "Pauza: {time} gacha. Narx qo'lda o'zgartirilgan yoki qaytarilgan, shuning uchun tizim unga {hours} soat tegmaydi.",
+  "savedOn": "Avtomatik narx yoqildi",
+  "savedOff": "Avtomatik narx o'chirildi",
+  "history": {
+    "title": "Narx tarixi",
+    "hint": "Avtomatik o'zgarishlar, eng yangisi birinchi. Oxirgisini qaytarish mumkin.",
+    "failed": "Tarixni yuklab bo'lmadi.",
+    "empty": "Hali avtomatik o'zgarish bo'lmagan.",
+    "median": "Viloyat medianasi {price} so'm ({count} ta narx)",
+    "factors": "Sabablar",
+    "undo": "Qaytarish",
+    "reverted": "Oldingi narx tiklandi. Avtomatik narx {hours} soat to'xtaydi.",
+    "revertedLabel": "qaytarilgan",
+    "revertedAt": "{time} da qaytarilgan",
+    "contrib": "Nega o'zgardi",
+    "contribHint": "Har sababning aniq ulushi (Shapley qiymatlari): qismlar yig'indisi jami o'zgarishga teng.",
+    "total": "Jami o'zgarish"
+  }
+}

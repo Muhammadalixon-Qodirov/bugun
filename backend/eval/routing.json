@@ -1,0 +1,162 @@
+[
+ {
+  "question": "Samarqandda piyoz qancha?",
+  "expect": "price_stats"
+ },
+ {
+  "question": "Kartoshka necha pul?",
+  "expect": "price_stats"
+ },
+ {
+  "question": "Namanganda pomidor narxi qancha turibdi?",
+  "expect": "price_stats"
+ },
+ {
+  "question": "Сколько стоит лук в Самарканде?",
+  "expect": "price_stats"
+ },
+ {
+  "question": "How much is rice in Tashkent?",
+  "expect": "price_stats"
+ },
+ {
+  "question": "Sentabrda piyoz qancha bo'lgan?",
+  "expect": "price_stats"
+ },
+ {
+  "question": "Eng arzon kartoshka kimda?",
+  "expect": "cheapest_offers"
+ },
+ {
+  "question": "Chustda eng arzon pomidor qayerda?",
+  "expect": "cheapest_offers"
+ },
+ {
+  "question": "Kim piyoz sotadi?",
+  "expect": "cheapest_offers"
+ },
+ {
+  "question": "Где дешевле картошка?",
+  "expect": "cheapest_offers"
+ },
+ {
+  "question": "Who sells the cheapest onions?",
+  "expect": "cheapest_offers"
+ },
+ {
+  "question": "2 tonna kartoshka qayerdan olsa bo'ladi?",
+  "expect": "cheapest_offers"
+ },
+ {
+  "question": "Qaysi viloyatda pomidor arzon?",
+  "expect": "compare_regions"
+ },
+ {
+  "question": "Qaysi tumanda sabzi arzon?",
+  "expect": "compare_regions"
+ },
+ {
+  "question": "Andijon va Namanganda olma narxini solishtir",
+  "expect": "compare_regions"
+ },
+ {
+  "question": "В каком регионе дешевле мука?",
+  "expect": "compare_regions"
+ },
+ {
+  "question": "Compare potato prices by region",
+  "expect": "compare_regions"
+ },
+ {
+  "question": "Piyoz narxi keyingi hafta qanday bo'ladi?",
+  "expect": "forecast"
+ },
+ {
+  "question": "Kartoshka prognozi",
+  "expect": "forecast"
+ },
+ {
+  "question": "Прогноз цены на помидоры",
+  "expect": "forecast"
+ },
+ {
+  "question": "What will onions cost next week?",
+  "expect": "forecast"
+ },
+ {
+  "question": "Kelasi hafta go'sht narxi nima bo'ladi?",
+  "expect": "forecast"
+ },
+ {
+  "question": "Oxirgi haftalarda olma narxi oshdimi?",
+  "expect": "price_trend"
+ },
+ {
+  "question": "Pomidor narxi qanday o'zgardi?",
+  "expect": "price_trend"
+ },
+ {
+  "question": "Как изменилась цена на лук?",
+  "expect": "price_trend"
+ },
+ {
+  "question": "Is the price of rice rising?",
+  "expect": "price_trend"
+ },
+ {
+  "question": "Kartoshka narxi tushmoqdami?",
+  "expect": "price_trend"
+ },
+ {
+  "question": "Uzum narxining dinamikasi",
+  "expect": "price_trend"
+ },
+ {
+  "question": "Piyozga talab qanday?",
+  "expect": "pressure_index"
+ },
+ {
+  "question": "Kartoshkaga talab va taklif",
+  "expect": "pressure_index"
+ },
+ {
+  "question": "Какой спрос на помидоры?",
+  "expect": "pressure_index"
+ },
+ {
+  "question": "What is the demand for apples?",
+  "expect": "pressure_index"
+ },
+ {
+  "question": "Bu hafta eng ko'p so'ralgan mahsulotlar",
+  "expect": "top_demand"
+ },
+ {
+  "question": "Qaysi mahsulotga talab eng yuqori?",
+  "expect": "top_demand"
+ },
+ {
+  "question": "Самые востребованные товары",
+  "expect": "top_demand"
+ },
+ {
+  "question": "Which products are most wanted?",
+  "expect": "top_demand"
+ },
+ {
+  "question": "Piyoz narxida g'alati sakrash bormi?",
+  "expect": "anomalies"
+ },
+ {
+  "question": "Pomidor narxida shubhali kunlar",
+  "expect": "anomalies"
+ },
+ {
+  "question": "Аномалии цен на картошку",
+  "expect": "anomalies"
+ },
+ {
+  "question": "Any suspicious price spikes for rice?",
+  "expect": "anomalies"
+ }
+]

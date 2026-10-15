@@ -1,0 +1,20 @@
+{
+  "units": {
+    "kg": "кг",
+    "litr": "л",
+    "dona": "шт",
+    "m2": "м²",
+    "m3": "м³",
+    "xizmat": "услуга"
+  },
+  "roles": {
+    "entrepreneur": "Предприниматель",
+    "market_admin": "Администрация рынка",
+    "admin": "Администратор"
+  },
+  "today": "сегодня",
+  "yesterday": "вчера",
+  "daysAgo": "{count, plural, one {# день назад} few {# дня назад} many {# дней назад} other {# дня назад}}",
+  "until": "до {date}",
+  "since": "с {date}"
+}

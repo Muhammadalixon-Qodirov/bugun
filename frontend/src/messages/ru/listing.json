@@ -1,0 +1,44 @@
+{
+  "metaFallback": "Объявление",
+  "metaBelow": "на {percent}% ниже рынка",
+  "breadcrumb": "Навигация",
+  "views": "{count, plural, one {# просмотр} few {# просмотра} many {# просмотров} other {# просмотра}}",
+  "perUnitSpaced": "сум / {unit}",
+  "atMarket": "По рыночной цене",
+  "belowMarket": "На {percent}% ниже рынка",
+  "aboveMarket": "На {percent}% выше рынка",
+  "average": "Средняя <b>{price}</b> · {scope}",
+  "basedOn": "{count, plural, one {По цене # продавца} other {По ценам # продавцов}}",
+  "collecting": "Собираем данные для рыночной цены (пока {count, plural, one {# цена} few {# цены} many {# цен} other {# цены}}).",
+  "sellerSince": "С {date} · {count, plural, one {# объявление} few {# объявления} many {# объявлений} other {# объявления}}",
+  "safety": "Bugun не участвует в сделке: оплата и доставка согласуются с продавцом. Не платите заранее.",
+  "details": "Подробности",
+  "description": "Описание",
+  "specs": {
+    "trade": "Тип торговли",
+    "minOrder": "Минимальный заказ",
+    "stock": "В наличии",
+    "region": "Регион",
+    "market": "Рынок",
+    "updated": "Обновлено",
+    "validUntil": "Действует"
+  },
+  "otherSellers": "Другие продавцы",
+  "otherSellersHint": "Тот же товар, сначала дешевле",
+  "fromSeller": "Ещё у продавца {seller}",
+  "barMedian": "Средняя цена",
+  "barThis": "Это объявление",
+  "all": "Все",
+  "rating": {
+    "summary": "{average} · {count, plural, one {# оценка} few {# оценки} many {# оценок} other {# оценки}}",
+    "stars": "{stars} из 5",
+    "title": "Оценки покупателей",
+    "note": "Только после подтверждённых сделок"
+  },
+  "tools": {
+    "compare": "Сравнить цены",
+    "compareHint": "Все продавцы, сначала дешёвые",
+    "analysis": "Анализ и прогноз",
+    "analysisHint": "История цен, сезон, на 4 недели вперёд"
+  }
+}

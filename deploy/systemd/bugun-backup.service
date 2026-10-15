@@ -1,0 +1,27 @@
+# Daily backup of the Bugun database and photos (deploy/backup.sh).
+# Install (adjust User and paths if the checkout is not /srv/bugun/app):
+#   sudo cp deploy/systemd/bugun-backup.{service,timer} /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now bugun-backup.timer
+#   systemctl list-timers bugun-backup.timer        # next run
+#   sudo systemctl start bugun-backup.service       # run once now
+#   journalctl -u bugun-backup.service              # output
+[Unit]
+Description=Bugun database and media backup
+Wants=network-online.target docker.service
+After=network-online.target docker.service
+
+[Service]
+Type=oneshot
+User=deploy
+Group=deploy
+SupplementaryGroups=docker
+# Settings come from the server .env (BUGUN_ENV_FILE, default ../.env next
+# to the checkout); override here if the layout differs:
+# Environment=BUGUN_ENV_FILE=/srv/bugun/.env
+ExecStart=/srv/bugun/app/deploy/backup.sh
+Nice=10
+IOSchedulingClass=idle
+TimeoutStartSec=2h
+NoNewPrivileges=true
+PrivateTmp=true

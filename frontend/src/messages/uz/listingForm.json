@@ -1,0 +1,97 @@
+{
+  "steps": {
+    "product": "Mahsulot",
+    "details": "Tafsilotlar"
+  },
+  "picker": {
+    "title": "Qaysi mahsulotni sotasiz?",
+    "hint": "Katalogdan tanlang, keyin narx va rasmlarni qo'shasiz.",
+    "search": "Mahsulot nomi…",
+    "all": "Barchasi",
+    "empty": "Topilmadi. Katalogda yo'q mahsulot bo'lsa, tez orada taklif qilish imkoni qo'shiladi."
+  },
+  "validation": {
+    "amount": "Miqdor noto'g'ri.",
+    "varietyMax": "60 belgidan oshmasin.",
+    "priceRequired": "Narxni kiriting.",
+    "priceDigits": "Faqat raqam kiriting.",
+    "priceRange": "Narx 50 so'mdan 50 mln so'mgacha bo'lsin.",
+    "descriptionMax": "1000 belgidan oshmasin."
+  },
+  "photoErrors": {
+    "tooMany": "Ko'pi bilan {max} ta rasm.",
+    "badType": "{name}: faqat JPEG, PNG yoki WebP.",
+    "tooBig": "{name}: rasm juda katta."
+  },
+  "busy": {
+    "uploadingOne": "Rasm yuklanmoqda…",
+    "uploadingMany": "Rasm {current}/{total} yuklanmoqda…"
+  },
+  "toasts": {
+    "photosFailed": "{count} ta rasm yuklanmadi.",
+    "review": "Narx bozordagidan juda farq qiladi — tekshiruvdan keyin ko'rinadi.",
+    "updatedExisting": "Bu mahsulot bo'yicha e'loningiz bor edi — u yangilandi.",
+    "saved": "E'lon saqlandi",
+    "posted": "E'lon joylandi"
+  },
+  "submit": {
+    "save": "O'zgarishlarni saqlash",
+    "post": "E'lonni joylash"
+  },
+  "product": "Mahsulot",
+  "change": "Almashtirish",
+  "photos": {
+    "title": "Rasmlar",
+    "hint": "Birinchi rasm muqova bo'ladi · {count}/{max}",
+    "add": "Qo'shish",
+    "note": "Mahsulotning o'zini suratga oling. JPEG, PNG yoki WebP. Katta rasmlar yuklashdan oldin avtomatik kichraytiriladi. Joylashuv ma'lumoti o'chiriladi.",
+    "cover": "Muqova",
+    "remove": "Olib tashlash"
+  },
+  "price": {
+    "title": "Narx",
+    "hint": "Narx 7 kun amal qiladi, keyin bir bosishda uzaytirasiz",
+    "trade": "Savdo turi",
+    "label": "1 {unit} narxi",
+    "suffix": "so'm / {unit}"
+  },
+  "extra": {
+    "title": "Qo'shimcha ma'lumot",
+    "hint": "Ixtiyoriy, lekin xaridorga tez qaror qilishga yordam beradi",
+    "variety": "Navi",
+    "varietyPlaceholder": "Masalan: qizil, Gala, 1-nav",
+    "minOrder": "Minimal buyurtma, {unit}",
+    "stock": "Mavjud hajm, {unit}",
+    "description": "Tavsif",
+    "descriptionPlaceholder": "Sifati, qadoqlash, yetkazib berish shartlari…",
+    "descriptionNote": "Telefon raqamini bu yerga yozmang: xaridor uni «Bog'lanish» tugmasi orqali oladi."
+  },
+  "preview": {
+    "heading": "Xaridor shunday ko'radi",
+    "reviewNote": "Narx bozor o'rtachasidan keskin farq qilsa, e'lon tekshiruvdan keyin chiqadi.",
+    "meta": "Siz · bugun",
+    "minOrder": "min. {amount} {unit}"
+  },
+  "pages": {
+    "new": {
+      "meta": "Mahsulot qo'shish",
+      "title": "Yangi e'lon",
+      "description": "Ikki qadam: mahsulotni tanlang, keyin narx va rasmlarni qo'shing."
+    },
+    "edit": {
+      "title": "E'lonni tahrirlash",
+      "description": "Narxni o'zgartirsangiz, e'lon yana 7 kun amal qiladi."
+    }
+  },
+  "autoNote": {
+    "new": "Joylagandan keyin e'lon sahifasida narxni avtomatik yangilashni yoqishingiz mumkin.",
+    "on": "Avtomatik narx yoqilgan: narxni qo'lda o'zgartirsangiz, u {hours} soat to'xtaydi.",
+    "off": "Narxni bozorga qarab avtomatik yangilash «Narx» bo'limida yoqiladi."
+  },
+  "manage": {
+    "label": "E'lon bo'limlari",
+    "details": "Tahrirlash",
+    "stats": "Statistika",
+    "pricing": "Narx"
+  }
+}

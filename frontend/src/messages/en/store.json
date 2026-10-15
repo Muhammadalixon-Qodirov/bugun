@@ -1,0 +1,47 @@
+{
+  "metaFallback": "Seller",
+  "metaTitle": "{name} — seller",
+  "metaDescription": "{name}, {place}: {count, plural, one {# live listing} other {# live listings}} with today's prices.",
+  "breadcrumb": "Breadcrumb",
+  "eyebrow": "Seller",
+  "stats": {
+    "listings": "Live listings",
+    "products": "Products",
+    "lastActive": "Last price update",
+    "never": "Not yet",
+    "rating": "Rating",
+    "noRating": "None yet"
+  },
+  "ratingSummary": "{average} · {count, plural, one {# rating} other {# ratings}}",
+  "activeBadge": "Updated prices this week",
+  "activeBadgeHint": "Set at least one price in the last 7 days",
+  "categories": "Categories",
+  "contactNote": "To contact the seller, open a listing: phone and Telegram are shown only there.",
+  "listingsTitle": "Listings",
+  "shown": "{count, plural, one {# listing} other {# listings}}",
+  "search": "Search products",
+  "clearSearch": "Clear search",
+  "trade": "Trade type",
+  "sortBy": "Sort:",
+  "sort": {
+    "new": "Newest",
+    "price_asc": "Price: low to high",
+    "price_desc": "Price: high to low"
+  },
+  "emptyTitle": "No live listings right now",
+  "emptyText": "This seller has no current prices yet. Browse other offers on the market.",
+  "toMarket": "Go to the market",
+  "noMatchTitle": "Nothing found",
+  "noMatchText": "Try a different search or filter.",
+  "resetFilters": "Reset filters",
+  "reviews": {
+    "title": "Buyer ratings",
+    "note": "Only buyers of confirmed deals can rate",
+    "stars": "{stars} out of 5"
+  },
+  "notFoundTitle": "Seller not found",
+  "notFoundText": "The link may be outdated, or this person no longer sells here.",
+  "openStore": "Seller page",
+  "storeOf": "{seller}'s page",
+  "store": "Store"
+}

@@ -1,0 +1,32 @@
+{
+  "categories": "Категории",
+  "deals": "Ниже рынка",
+  "dealsTitle": "Предложения ниже рынка",
+  "allListings": "Все объявления",
+  "searchTitle": "По запросу «{q}»",
+  "count": "{count, plural, one {{formatted} объявление} few {{formatted} объявления} many {{formatted} объявлений} other {{formatted} объявления}} · {region}",
+  "filters": "Фильтры",
+  "sortBy": "Сортировка:",
+  "sort": {
+    "new": "Новые",
+    "deal": "Ниже рынка",
+    "price_asc": "Сначала дешевле",
+    "price_desc": "Сначала дороже",
+    "popular": "Популярные"
+  },
+  "tradeType": "Тип торговли",
+  "product": "Товар",
+  "findProduct": "Найти товар",
+  "price": "Цена, сум",
+  "from": "от",
+  "to": "до",
+  "priceFrom": "Цена от",
+  "priceTo": "Цена до",
+  "show": "Показать",
+  "priceRange": "{min} – {max} сум",
+  "priceMin": "от {min} сум",
+  "priceMax": "до {max} сум",
+  "emptyTitle": "Объявления не найдены",
+  "emptyText": "Попробуйте изменить фильтры или регион: в других районах могут быть предложения.",
+  "loadMore": "Показать ещё"
+}

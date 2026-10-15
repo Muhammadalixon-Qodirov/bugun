@@ -1,0 +1,328 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "lenis/dist/lenis.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-warm: var(--warm);
+  --color-warm-foreground: var(--warm-foreground);
+  --color-warm-soft: var(--warm-soft);
+  --color-foreground: var(--foreground);
+  --color-ink: var(--ink);
+  --color-ink-foreground: var(--ink-foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  /* Telegram blue, darkened so white text passes WCAG AA (4.5:1). */
+  --color-telegram: #177bbd;
+  --color-telegram-hover: #1570a8;
+  --font-heading: var(--font-sans);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-viz-1: var(--viz-1);
+  --color-viz-2: var(--viz-2);
+  --color-viz-3: var(--viz-3);
+  --color-viz-4: var(--viz-4);
+  --color-viz-cheap: var(--viz-cheap);
+  --color-viz-dear: var(--viz-dear);
+  --color-viz-mid: var(--viz-mid);
+  --color-viz-grid: var(--viz-grid);
+  --color-viz-axis: var(--viz-axis);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  /* Saffron accent: the warm colour of a bazaar stall, used sparingly. */
+  --warm-soft: oklch(0.955 0.045 75);
+  --warm-foreground: oklch(0.36 0.08 55);
+  --warm: oklch(0.76 0.15 62);
+  /* Warm paper background with deep ink-green text. */
+  --background: oklch(0.984 0.006 85);
+  --foreground: oklch(0.19 0.018 165);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.19 0.018 165);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.19 0.018 165);
+  /* Deep emerald brand colour. */
+  --primary: oklch(0.47 0.115 160);
+  --primary-foreground: oklch(0.985 0.012 160);
+  --secondary: oklch(0.95 0.012 160);
+  --secondary-foreground: oklch(0.26 0.035 160);
+  --muted: oklch(0.955 0.008 85);
+  --muted-foreground: oklch(0.5 0.015 165);
+  --accent: oklch(0.95 0.035 160);
+  --accent-foreground: oklch(0.34 0.09 160);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.905 0.008 85);
+  --input: oklch(0.89 0.008 85);
+  --ring: oklch(0.55 0.02 165);
+  /* Inverted "ink" surface for price boards and call-to-action bands. */
+  --ink: oklch(0.2 0.028 165);
+  --ink-foreground: oklch(0.97 0.01 90);
+  --chart-1: oklch(0.47 0.115 160);
+  --chart-2: oklch(0.72 0.15 62);
+  --chart-3: oklch(0.6 0.12 240);
+  --chart-4: oklch(0.62 0.19 30);
+  --chart-5: oklch(0.55 0.02 260);
+  --radius: 1rem;
+  /*
+   * Chart colours, validated for colour-blind separation and contrast on the
+   * card surface (dataviz validate_palette.js): categorical slots in fixed order
+   * for up to four lines, and a cheap↔dear diverging pair with a grey middle.
+   */
+  --viz-1: #2a78d6;
+  --viz-2: #eb6834;
+  --viz-3: #1baf7a;
+  --viz-4: #eda100;
+  --viz-cheap: #1baf7a;
+  --viz-dear: #eb6834;
+  --viz-mid: #eeede9;
+  --viz-grid: oklch(0.93 0.006 85);
+  --viz-axis: oklch(0.85 0.008 85);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+.dark {
+  /* A translucent saffron tint: a solid dark amber reads as muddy brown. */
+  --warm-soft: oklch(0.8 0.14 65 / 14%);
+  --warm-foreground: oklch(0.92 0.06 75);
+  --warm: oklch(0.8 0.14 65);
+  --background: oklch(0.155 0.012 165);
+  --foreground: oklch(0.97 0.006 90);
+  --card: oklch(0.19 0.014 165);
+  --card-foreground: oklch(0.97 0.006 90);
+  --popover: oklch(0.2 0.014 165);
+  --popover-foreground: oklch(0.97 0.006 90);
+  --primary: oklch(0.78 0.14 160);
+  --primary-foreground: oklch(0.18 0.04 160);
+  --secondary: oklch(0.25 0.02 165);
+  --secondary-foreground: oklch(0.97 0.006 90);
+  --muted: oklch(0.225 0.014 165);
+  --muted-foreground: oklch(0.7 0.014 165);
+  --accent: oklch(0.29 0.05 160);
+  --accent-foreground: oklch(0.9 0.06 160);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 9%);
+  --input: oklch(1 0 0 / 13%);
+  --ring: oklch(0.72 0.02 165);
+  --ink: oklch(0.22 0.03 165);
+  --ink-foreground: oklch(0.97 0.01 90);
+  --chart-1: oklch(0.78 0.14 160);
+  --chart-2: oklch(0.8 0.14 65);
+  --chart-3: oklch(0.7 0.12 240);
+  --chart-4: oklch(0.7 0.17 30);
+  --chart-5: oklch(0.7 0.02 260);
+  --viz-1: #3987e5;
+  --viz-2: #d95926;
+  --viz-3: #199e70;
+  --viz-4: #c98500;
+  --viz-cheap: #199e70;
+  --viz-dear: #d95926;
+  --viz-mid: #2b302d;
+  --viz-grid: oklch(1 0 0 / 7%);
+  --viz-axis: oklch(1 0 0 / 14%);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button:not(:disabled), [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  html {
+    @apply font-sans;
+    /* App-like taps: no grey flash on Android, no double-tap zoom delay. */
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    -webkit-text-size-adjust: 100%;
+    /* Menus lock scrolling; keeping the gutter stops the page jumping sideways. */
+    scrollbar-gutter: stable;
+  }
+}
+@layer base {
+  ::selection {
+    @apply bg-primary/20;
+  }
+  .num {
+    @apply tabular-nums tracking-tight;
+  }
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+}
+
+/* Editorial type scale: large, tight display headings and small eyebrow labels. */
+@utility display {
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  line-height: 1;
+}
+@utility eyebrow {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+
+/*
+ * Viewport tokens. Components use only these, never 100dvh or env() directly.
+ * In a browser they come from the device; inside the Telegram Mini App
+ * (html.tg-webapp, set before first paint in app/layout.tsx) from Telegram,
+ * because env(safe-area-inset-*) is 0 in its iOS web view and 100dvh jumps
+ * while the sheet is dragged or the keyboard opens (core.telegram.org/bots/webapps).
+ */
+:root {
+  --app-safe-top: env(safe-area-inset-top, 0px);
+  --app-safe-bottom: env(safe-area-inset-bottom, 0px);
+  --app-height: 100dvh;
+}
+html.tg-webapp {
+  /* Device cut-outs plus Telegram's own controls (content safe area, Bot API 8.0). */
+  --app-safe-top: calc(var(--tg-safe-area-inset-top, 0px) + var(--tg-content-safe-area-inset-top, 0px));
+  --app-safe-bottom: max(
+    env(safe-area-inset-bottom, 0px),
+    calc(var(--tg-safe-area-inset-bottom, 0px) + var(--tg-content-safe-area-inset-bottom, 0px))
+  );
+  --app-height: var(--tg-viewport-stable-height, 100dvh);
+}
+
+/*
+ * Phones zoom into any field whose text is smaller than 16px (iOS Safari and the
+ * Telegram in-app browser), throwing the layout off. Touch screens get 16px.
+ */
+@media (pointer: coarse) {
+  input,
+  textarea,
+  select {
+    font-size: max(16px, 1em) !important;
+  }
+  /* While typing, bars pinned to the bottom slide away instead of riding on the keyboard. */
+  html:has(:is(input, textarea):focus) :is(.vt-site-tabbar, .app-bottom-bar) {
+    transform: translateY(calc(100% + 2rem));
+  }
+}
+
+/* Content entrance: CSS only, so server HTML is visible before hydration. */
+/* Opacity only: nothing moves, so text never appears to shake into place. */
+.reveal,
+.stagger > * {
+  animation: reveal-in 220ms var(--ease-out-soft) both;
+}
+.stagger > :nth-child(2) { animation-delay: 20ms; }
+.stagger > :nth-child(3) { animation-delay: 40ms; }
+.stagger > :nth-child(4) { animation-delay: 60ms; }
+.stagger > :nth-child(n + 5) { animation-delay: 80ms; }
+@keyframes reveal-in {
+  from { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .stagger > * { animation: none; }
+}
+
+/* Page enter/exit through React <ViewTransition> (see components/page.tsx). */
+/*
+ * The browser also crossfades the whole screen ("root") by default, and draws
+ * the page's layers above it, so the header and the phone tab bar blinked and
+ * were covered on every tap. Only the page moves: root switches at once, and
+ * the header and tab bar are their own layers, on top and never animated.
+ */
+::view-transition-old(root) {
+  animation: none;
+  opacity: 0;
+}
+::view-transition-new(root) {
+  animation: none;
+}
+.vt-site-header { view-transition-name: site-header; }
+.vt-site-tabbar { view-transition-name: site-tabbar; }
+::view-transition-group(site-header),
+::view-transition-group(site-tabbar) {
+  z-index: 100;
+  animation: none;
+}
+::view-transition-old(site-header),
+::view-transition-old(site-tabbar) {
+  display: none;
+}
+::view-transition-new(site-header),
+::view-transition-new(site-tabbar) {
+  animation: none;
+}
+::view-transition-old(.page-exit) {
+  animation: 120ms ease-out both page-out;
+}
+::view-transition-new(.page-enter) {
+  animation: 200ms var(--ease-out-soft) both page-in;
+}
+@keyframes page-out {
+  to { opacity: 0; }
+}
+@keyframes page-in {
+  from { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}

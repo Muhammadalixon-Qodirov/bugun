@@ -1,0 +1,97 @@
+{
+  "steps": {
+    "product": "Product",
+    "details": "Details"
+  },
+  "picker": {
+    "title": "What are you selling?",
+    "hint": "Pick it from the catalog, then add the price and photos.",
+    "search": "Product name…",
+    "all": "All",
+    "empty": "Nothing found. Suggesting products that aren't in the catalog is coming soon."
+  },
+  "validation": {
+    "amount": "Invalid amount.",
+    "varietyMax": "Keep it under 60 characters.",
+    "priceRequired": "Enter a price.",
+    "priceDigits": "Digits only.",
+    "priceRange": "The price must be between 50 and 50 million UZS.",
+    "descriptionMax": "Keep it under 1000 characters."
+  },
+  "photoErrors": {
+    "tooMany": "{max, plural, one {# photo} other {# photos}} at most.",
+    "badType": "{name}: JPEG, PNG or WebP only.",
+    "tooBig": "{name}: the photo is too large."
+  },
+  "busy": {
+    "uploadingOne": "Uploading photo…",
+    "uploadingMany": "Uploading photo {current}/{total}…"
+  },
+  "toasts": {
+    "photosFailed": "{count, plural, one {# photo} other {# photos}} failed to upload.",
+    "review": "The price is far from the market price — the listing will appear after review.",
+    "updatedExisting": "You already had a listing for this product — it has been updated.",
+    "saved": "Listing saved",
+    "posted": "Listing posted"
+  },
+  "submit": {
+    "save": "Save changes",
+    "post": "Post listing"
+  },
+  "product": "Product",
+  "change": "Change",
+  "photos": {
+    "title": "Photos",
+    "hint": "The first photo is the cover · {count}/{max}",
+    "add": "Add",
+    "note": "Photograph the product itself. JPEG, PNG or WebP. Large photos are shrunk automatically before upload. Location data is removed.",
+    "cover": "Cover",
+    "remove": "Remove"
+  },
+  "price": {
+    "title": "Price",
+    "hint": "The price is valid for 7 days, then you renew it in one tap",
+    "trade": "Trade type",
+    "label": "Price per 1 {unit}",
+    "suffix": "UZS / {unit}"
+  },
+  "extra": {
+    "title": "More details",
+    "hint": "Optional, but it helps buyers decide faster",
+    "variety": "Variety",
+    "varietyPlaceholder": "E.g. red, Gala, grade 1",
+    "minOrder": "Minimum order, {unit}",
+    "stock": "In stock, {unit}",
+    "description": "Description",
+    "descriptionPlaceholder": "Quality, packaging, delivery terms…",
+    "descriptionNote": "Don't put your phone number here: buyers get it through the “Contact” button."
+  },
+  "preview": {
+    "heading": "What buyers will see",
+    "reviewNote": "If the price is far from the market average, the listing goes live after review.",
+    "meta": "You · today",
+    "minOrder": "min. {amount} {unit}"
+  },
+  "pages": {
+    "new": {
+      "meta": "Add a product",
+      "title": "New listing",
+      "description": "Two steps: pick the product, then add the price and photos."
+    },
+    "edit": {
+      "title": "Edit listing",
+      "description": "Change the price and the listing stays live for another 7 days."
+    }
+  },
+  "autoNote": {
+    "new": "After posting, you can turn on automatic pricing on the listing's page.",
+    "on": "Automatic pricing is on: changing the price by hand pauses it for {hours, plural, one {# hour} other {# hours}}.",
+    "off": "Automatic pricing can be turned on in the «Price» tab."
+  },
+  "manage": {
+    "label": "Listing sections",
+    "details": "Edit",
+    "stats": "Statistics",
+    "pricing": "Price"
+  }
+}

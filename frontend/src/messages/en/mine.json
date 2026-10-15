@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "My listings"
+  },
+  "eyebrow": "Entrepreneur dashboard",
+  "title": "My listings",
+  "description": "A price stays live for 7 days. If it hasn't changed, renew it in one tap.",
+  "textPrice": "Price by text",
+  "newListing": "New listing",
+  "empty": {
+    "title": "No listings yet",
+    "description": "Post your first product with a photo: buyers will see it in the market, and your price is compared with the market average.",
+    "action": "Post your first listing"
+  },
+  "stats": {
+    "live": "Active listings",
+    "liveHint": "{count} in total",
+    "views": "Views",
+    "viewsHint": "across all listings",
+    "attention": "Need renewal",
+    "attentionHint": "under 2 days left or expired",
+    "review": "Under review",
+    "reviewHint": "when the price is far from the market"
+  },
+  "tabsLabel": "Status",
+  "tabs": {
+    "all": "All",
+    "live": "Active",
+    "attention": "Need renewal",
+    "review": "Under review",
+    "hidden": "Hidden"
+  },
+  "states": {
+    "active": "Active",
+    "ending": "Expiring soon",
+    "review": "Under review",
+    "hidden": "Hidden",
+    "expired": "Expired",
+    "rejected": "Rejected"
+  },
+  "searchPlaceholder": "By name",
+  "searchLabel": "Search listings by name",
+  "renewedMany": "{count, plural, one {# listing renewed} other {# listings renewed}} for another 7 days",
+  "nothingToRenew": "No listings left to renew",
+  "stale": "<b>{count, plural, one {# listing} other {# listings}}</b> expiring or expired. If the price hasn't changed, renew for another 7 days in one tap.",
+  "renewAll": "Renew all",
+  "columns": {
+    "product": "Product",
+    "price": "Price",
+    "views": "Views",
+    "state": "Status",
+    "actions": "Actions",
+    "funnel": "Last 7 days"
+  },
+  "emptySearch": "No listings match “{query}”.",
+  "emptyTab": "No listings in this section.",
+  "medianProvince": "Average price in your region: {price} UZS",
+  "medianCountry": "Average price nationwide: {price} UZS",
+  "atMarket": "at market price",
+  "belowMarket": "{percent}% below market",
+  "aboveMarket": "{percent}% above market",
+  "actions": {
+    "renewed": "Renewed for another 7 days",
+    "deleted": "Listing deleted",
+    "renew": "Renew",
+    "edit": "Edit",
+    "more": "More actions",
+    "renewWeek": "Renew for 7 days",
+    "show": "Show",
+    "hide": "Hide",
+    "sold": "Mark as sold",
+    "stats": "Statistics"
+  },
+  "signals": {
+    "position": "#{rank} of {total}",
+    "positionHint": "Among {total} sellers in your province (#1 is the cheapest). Others' median price is {price} UZS; yours is {diff}.",
+    "auto": "Auto",
+    "range": "{min} – {max}",
+    "autoHint": "The price follows the market automatically within your range",
+    "paused": "Paused until {time}",
+    "funnelLabel": "Last 7 days: {views, plural, one {# person} other {# people}} viewed, {contacts, plural, one {# person} other {# people}} got in touch, {deals, plural, one {# deal} other {# deals}}",
+    "reviewTitle": "Under review: {reason}.",
+    "reviewTitleNoReason": "Under review.",
+    "reviewHint": "The listing goes live once an admin approves it. If the price has a typo, edit it.",
+    "rejectedTitle": "Rejected by an admin.",
+    "rejectedHint": "Editing it or sending the price again won't bring it back: delete it and post a new listing.",
+    "adminNote": "Administrator's note: “{note}”"
+  },
+  "sold": {
+    "title": "Record a sale",
+    "description": "Enter how much you sold. If you set a stock, it goes down by that amount.",
+    "quantity": "Quantity sold, {unit}",
+    "max": "max {amount} {unit}",
+    "price": "Agreed price",
+    "priceHint": "It makes the market's deal prices more accurate.",
+    "submit": "Mark as sold",
+    "recorded": "Sale recorded",
+    "confirmed": "Deal confirmed — the buyer reported it too",
+    "soldOut": "Out of stock, the listing is hidden",
+    "updateStock": "Update stock"
+  }
+}

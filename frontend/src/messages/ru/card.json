@@ -1,0 +1,6 @@
+{
+  "below": "−{percent}%",
+  "belowTitle": "По сравнению со средней ценой рынка",
+  "marketAverage": "Средняя цена {price}",
+  "minOrder": "мин. {amount} {unit}"
+}

@@ -1,0 +1,242 @@
+[
+ {
+  "word": "pamidor",
+  "expect": "pomidor"
+ },
+ {
+  "word": "помидор",
+  "expect": "pomidor"
+ },
+ {
+  "word": "tomat",
+  "expect": "pomidor"
+ },
+ {
+  "word": "pomidorlar",
+  "expect": "pomidor"
+ },
+ {
+  "word": "помидоры",
+  "expect": "pomidor"
+ },
+ {
+  "word": "картошки",
+  "expect": "kartoshka"
+ },
+ {
+  "word": "kartofel",
+  "expect": "kartoshka"
+ },
+ {
+  "word": "kartoshkaa",
+  "expect": "kartoshka"
+ },
+ {
+  "word": "kartop",
+  "expect": "kartoshka"
+ },
+ {
+  "word": "лук",
+  "expect": "piyoz"
+ },
+ {
+  "word": "piyozlar",
+  "expect": "piyoz"
+ },
+ {
+  "word": "пиёз",
+  "expect": "piyoz"
+ },
+ {
+  "word": "морковка",
+  "expect": "sabzi"
+ },
+ {
+  "word": "ogurets",
+  "expect": "bodring"
+ },
+ {
+  "word": "огурцы",
+  "expect": "bodring"
+ },
+ {
+  "word": "bodiring",
+  "expect": "bodring"
+ },
+ {
+  "word": "bodrin",
+  "expect": "bodring"
+ },
+ {
+  "word": "kapusta",
+  "expect": "karam"
+ },
+ {
+  "word": "чеснок",
+  "expect": "sarimsoq"
+ },
+ {
+  "word": "sarimsok",
+  "expect": "sarimsoq"
+ },
+ {
+  "word": "yabloki",
+  "expect": "olma"
+ },
+ {
+  "word": "vinograd",
+  "expect": "uzum"
+ },
+ {
+  "word": "виноград",
+  "expect": "uzum"
+ },
+ {
+  "word": "granat",
+  "expect": "anor"
+ },
+ {
+  "word": "govyadina",
+  "expect": "mol-goshti"
+ },
+ {
+  "word": "говядина",
+  "expect": "mol-goshti"
+ },
+ {
+  "word": "баранина",
+  "expect": "qoy-goshti"
+ },
+ {
+  "word": "курица",
+  "expect": "tovuq"
+ },
+ {
+  "word": "яйца",
+  "expect": "tuxum"
+ },
+ {
+  "word": "рис",
+  "expect": "guruch"
+ },
+ {
+  "word": "muka",
+  "expect": "un"
+ },
+ {
+  "word": "сахар",
+  "expect": "shakar"
+ },
+ {
+  "word": "молоко",
+  "expect": "sut"
+ },
+ {
+  "word": "цемент",
+  "expect": "sement"
+ },
+ {
+  "word": "кирпич",
+  "expect": "gisht"
+ },
+ {
+  "word": "арбуз",
+  "expect": "tarvuz"
+ },
+ {
+  "word": "дыня",
+  "expect": "qovun"
+ },
+ {
+  "word": "баклажан",
+  "expect": "baqlajon"
+ },
+ {
+  "word": "свекла",
+  "expect": "lavlagi"
+ },
+ {
+  "word": "редиска",
+  "expect": "turp"
+ },
+ {
+  "word": "кукуруза",
+  "expect": "makkajoxori"
+ },
+ {
+  "word": "персик",
+  "expect": "shaftoli"
+ },
+ {
+  "word": "абрикос",
+  "expect": "orik"
+ },
+ {
+  "word": "груша",
+  "expect": "nok"
+ },
+ {
+  "word": "вишня",
+  "expect": "olcha"
+ },
+ {
+  "word": "черешня",
+  "expect": "gilos"
+ },
+ {
+  "word": "клубника",
+  "expect": "qulupnay"
+ },
+ {
+  "word": "хурма",
+  "expect": "xurmo"
+ },
+ {
+  "word": "shaftoly",
+  "expect": "shaftoli"
+ },
+ {
+  "word": "qulupnai",
+  "expect": "qulupnay"
+ },
+ {
+  "word": "tomatoes",
+  "expect": "pomidor"
+ },
+ {
+  "word": "potato",
+  "expect": "kartoshka"
+ },
+ {
+  "word": "onion",
+  "expect": "piyoz"
+ },
+ {
+  "word": "apple",
+  "expect": "olma"
+ },
+ {
+  "word": "carrot",
+  "expect": "sabzi"
+ },
+ {
+  "word": "velosiped",
+  "expect": ""
+ },
+ {
+  "word": "telefon",
+  "expect": ""
+ },
+ {
+  "word": "ko'ylak",
+  "expect": ""
+ },
+ {
+  "word": "mashina",
+  "expect": ""
+ },
+ {
+  "word": "kitob",
+  "expect": ""
+ }
+]

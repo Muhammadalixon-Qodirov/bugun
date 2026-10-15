@@ -1,0 +1,20 @@
+{
+  "units": {
+    "kg": "kg",
+    "litr": "litr",
+    "dona": "dona",
+    "m2": "m²",
+    "m3": "m³",
+    "xizmat": "xizmat"
+  },
+  "roles": {
+    "entrepreneur": "Tadbirkor",
+    "market_admin": "Bozor ma'muriyati",
+    "admin": "Administrator"
+  },
+  "today": "bugun",
+  "yesterday": "kecha",
+  "daysAgo": "{count} kun oldin",
+  "until": "{date} gacha",
+  "since": "{date} dan beri"
+}

@@ -1,0 +1,191 @@
+[
+    {
+        "name": "Аvtobenzin А-92",
+        "summa": "13 441 486.47",
+        "difference": "42 181.45",
+        "tovarNum": 0,
+        "percent": "0.31"
+    },
+    {
+        "name": "Avtobenzin A-92 К2-Л",
+        "summa": "13 714 579.67",
+        "difference": "67 400.78",
+        "tovarNum": 0,
+        "percent": "0.49"
+    },
+    {
+        "name": "Аvtobenzin А-92 K5",
+        "summa": "15 291 489.36",
+        "difference": "0.00",
+        "tovarNum": 0,
+        "percent": "0.00"
+    },
+    {
+        "name": "Armatura 12 st 35 GS o‘lchamli",
+        "summa": "8 626 544.04",
+        "difference": "-8 386.59",
+        "tovarNum": 0,
+        "percent": "0.10"
+    },
+    {
+        "name": "Dizel yoqilg‘isi",
+        "summa": "16 971 576.05",
+        "difference": "-1 490 420.05",
+        "tovarNum": 0,
+        "percent": "8.07"
+    },
+    {
+        "name": "Dizel yoqilg‘isi 0,5-40",
+        "summa": "24 000 000.00",
+        "difference": "0.00",
+        "tovarNum": 0,
+        "percent": "0.00"
+    },
+    {
+        "name": "Dizel yo‘ilg‘isi EVRO Л-К-4",
+        "summa": "20 750 421.59",
+        "difference": "281 455.16",
+        "tovarNum": 0,
+        "percent": "1.38"
+    },
+    {
+        "name": "Dizel yoqilg‘isi EVRO-L II K-Л II К-4 SSDF",
+        "summa": "19 952 769.05",
+        "difference": "434 427.75",
+        "tovarNum": 0,
+        "percent": "2.23"
+    },
+    {
+        "name": "Toshko‘mir fr 20-60mm",
+        "summa": "1 215 000.00",
+        "difference": "-45 000.00",
+        "tovarNum": 0,
+        "percent": "3.57"
+    },
+    {
+        "name": "Мis katodi",
+        "summa": "178 243 070.91",
+        "difference": "-5 370 689.55",
+        "tovarNum": 0,
+        "percent": "2.92"
+    },
+    {
+        "name": "Polipropilen B-310",
+        "summa": "17 023 635.97",
+        "difference": "0.00",
+        "tovarNum": 0,
+        "percent": "0.00"
+    },
+    {
+        "name": "Polipropilen FC-550",
+        "summa": "16 531 635.64",
+        "difference": "456 838.06",
+        "tovarNum": 0,
+        "percent": "2.84"
+    },
+    {
+        "name": "Polipropilen Y130",
+        "summa": "17 714 033.09",
+        "difference": "171 709.42",
+        "tovarNum": 0,
+        "percent": "0.98"
+    },
+    {
+        "name": "Polietilen   B-Y 460",
+        "summa": "16 679 358.00",
+        "difference": "-1 237 234.52",
+        "tovarNum": 0,
+        "percent": "6.91"
+    },
+    {
+        "name": "Polietilen   F-0120",
+        "summa": "19 512 605.72",
+        "difference": "-346 128.27",
+        "tovarNum": 0,
+        "percent": "1.74"
+    },
+    {
+        "name": "Polietilen   F-0320",
+        "summa": "18 367 833.20",
+        "difference": "356 540.48",
+        "tovarNum": 0,
+        "percent": "1.98"
+    },
+    {
+        "name": "Portlandsement   II/А-И 32,5 Н (qadoqlanmagan)",
+        "summa": "488 620.00",
+        "difference": "4 224.63",
+        "tovarNum": 0,
+        "percent": "0.87"
+    },
+    {
+        "name": "Portlandsement II/V-K 32,5 H (qoplarda)",
+        "summa": "573 841.85",
+        "difference": "-3 271.54",
+        "tovarNum": 0,
+        "percent": "0.57"
+    },
+    {
+        "name": "Bug‘doy 3 sinf",
+        "summa": "3 222 925.54",
+        "difference": "-32 269.43",
+        "tovarNum": 0,
+        "percent": "0.99"
+    },
+    {
+        "name": "Bug‘doy uni 1 nаv",
+        "summa": "4 177 601.93",
+        "difference": "168 124.54",
+        "tovarNum": 0,
+        "percent": "4.19"
+    },
+    {
+        "name": "Texnik oltingugurt",
+        "summa": "2 348 000.00",
+        "difference": "0.00",
+        "tovarNum": 0,
+        "percent": "0.00"
+    },
+    {
+        "name": "Suyultirilgan gaz",
+        "summa": "9 762 015.45",
+        "difference": "2 212 457.20",
+        "tovarNum": 0,
+        "percent": "29.31"
+    },
+    {
+        "name": "Oltin quymasi Au-1 O‘zDst 610:2009 (gramm)",
+        "summa": "1 579 541.30",
+        "difference": "-92 833.70",
+        "tovarNum": 0,
+        "percent": "5.55"
+    },
+    {
+        "name": "Paxta tola 1 nav 4 tip (oliy) 2025-yil hosili",
+        "summa": "18 223 724.76",
+        "difference": "-2 021 148.97",
+        "tovarNum": 0,
+        "percent": "9.98"
+    },
+    {
+        "name": "Tozalangan dezodoratsiyalangan 1-nav presslangan paxta yog'i",
+        "summa": "19 000 000.00",
+        "difference": "0.00",
+        "tovarNum": 0,
+        "percent": "0.00"
+    },
+    {
+        "name": "Paxta chigiti shroti",
+        "summa": "5 303 867.40",
+        "difference": "0.00",
+        "tovarNum": 0,
+        "percent": "0.00"
+    },
+    {
+        "name": "Paxtа chigiti shulxasi",
+        "summa": "4 000 000.00",
+        "difference": "180 281.69",
+        "tovarNum": 0,
+        "percent": "4.72"
+    }
+]

@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "title": "Post prices"
+  },
+  "eyebrow": "Entrepreneur",
+  "title": "Post prices",
+  "description": "Write your prices as plain text. You'll see where you stand in the market and get buyer requests. You can also send them to the bot.",
+  "sellersOnly": {
+    "title": "Posting prices is for entrepreneurs",
+    "description": "A market administration account watches prices and gets reports but doesn't sell. Reports are in your cabinet.",
+    "action": "Go to cabinet"
+  },
+  "reviewTitle": "Check the result",
+  "reviewHint": "unconfirmed prices aren't saved",
+  "confirm": "Looks right",
+  "fix": "Fix",
+  "textLabel": "Price text",
+  "notRecognised": "No product recognised in the message. Write the product name and price, for example: kartoshka 4500.",
+  "check": "Check",
+  "checking": "Checking…",
+  "shortcut": "⌘ + Enter to check",
+  "result": {
+    "title": "{count, plural, one {# price saved} other {# prices saved}}",
+    "previous": "Previous price:",
+    "unchanged": "Same as the previous price.",
+    "position": "You're <b>#{rank}</b> of <b>{total}</b> sellers · median <b>{price}</b> UZS ({diff})",
+    "review": "This price is very different from usual, so it will appear after a review.",
+    "rejected": "An admin rejected your listing for this product earlier, so buyers won't see this price. Delete it in My listings and post it again.",
+    "fewPrices": "There are few prices for this product in your province yet: your rank will show later.",
+    "again": "Send another price",
+    "mine": "My listings"
+  },
+  "parser": {
+    "problems": {
+      "no_price": "{product}: no price found. For example: «{example} 4500».",
+      "unknown_unit": "{product}: we don't know how many {baseUnit} are in one «{unit}». Write the price per 1 {baseUnit}.",
+      "bad_price": "{product}: {price} UZS looks wrong.",
+      "bad_quantity": "{product}: the amount looks wrong.",
+      "no_product": "Product not recognised. For example: «kartoshka 200 kg»."
+    },
+    "hints": {
+      "read_as_thousands": "«{written}» was read as {price} UZS",
+      "converted": "Counted as 1 {unit} = {amount} {baseUnit}",
+      "by_model": "Read by AI",
+      "matched": "«{written}» was recognised as {product}"
+    },
+    "units": {
+      "qop": "sack",
+      "yashik": "crate",
+      "karobka": "box",
+      "lotok": "tray",
+      "tonna": "tonne",
+      "gramm": "gram",
+      "dona": "pcs"
+    }
+  },
+  "channelTip": "Have a Telegram channel or group? Add the bot as an admin and the prices in your posts arrive here on their own.",
+  "voice": {
+    "start": "By voice",
+    "stop": "Stop",
+    "transcribing": "Turning into text…",
+    "empty": "No speech was recognised. Try again or type it.",
+    "denied": "Microphone access was denied. Allow it in the browser settings or type it.",
+    "unsupported": "This browser can't record audio. Please type it."
+  },
+  "photo": {
+    "button": "From a photo",
+    "reading": "Reading the photo…"
+  },
+  "suggestions": {
+    "title": "«{word}» — which product? Pick one:"
+  },
+  "guide": {
+    "title": "How to write it",
+    "text": "Write the product name and the price. Quantity, unit and trade type are optional.",
+    "examples": {
+      "tonnes": "Potatoes, 4,500 sum per kg, 2 tonnes in stock",
+      "perKilo": "Onions, 3,800 sum per kg",
+      "wholesale": "Apples, wholesale: the crate price is converted to a kilo"
+    },
+    "lines": "For several products, put each on its own line. You check everything before it is saved.",
+    "voice": "By voice: speak for up to {seconds} seconds and the text lands in the box.",
+    "photo": "From a photo: snap the board or paper with the prices on it.",
+    "mineTitle": "My products",
+    "mineText": "Listings, prices and expiry dates"
+  }
+}

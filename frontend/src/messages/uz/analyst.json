@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "AI yordamchi — bozor narxlari bo'yicha suhbat",
+    "description": "Narxlar, retsept va savat narxi, prognoz va eng arzon takliflar haqida oddiy tilda so'rang. Har bir raqam platforma ma'lumotidan olinadi."
+  },
+  "eyebrow": "AI yordamchi",
+  "title": "Bozor narxlari bo'yicha yordamchi",
+  "description": "Oddiy tilda yozing va savolni davom ettiring: «Andijonda-chi?». Javobdagi har bir raqam platformadagi narxlardan olinadi.",
+  "navLink": "Tahlilchi",
+  "ask": "Savol bering",
+  "label": "Savolingiz",
+  "submit": "So'rash",
+  "examplesTitle": "Namunalar",
+  "examples": {
+    "price": "Namanganda piyoz qancha?",
+    "basket": "Osh 10 kishilik qancha turadi?",
+    "forecast": "Kartoshka qachon arzonlashadi?",
+    "movers": "Bu hafta nima qimmatladi?",
+    "cheapest": "Qaysi viloyatda go'sht arzon?",
+    "help": "Narxni qanday joylayman?"
+  },
+  "status": {
+    "insufficient_data": "Ma'lumot yetarli emas",
+    "insufficient_dataHint": "Bu savol uchun narxlar juda kam (3 tadan kam). Taxmin qilmaymiz — boshqa hudud yoki davrni so'rab ko'ring.",
+    "no_product": "Mahsulot tanilmadi",
+    "no_productHint": "Savolda katalogdagi mahsulot nomini yozing, masalan: piyoz, kartoshka, olma."
+  },
+  "sourcesTitle": "Manbalar",
+  "source": {
+    "observations": "{count} ta kuzatuv",
+    "enough": "yetarli",
+    "notEnough": "ma'lumot yetarli emas",
+    "period": "Davr: {period}",
+    "tools": {
+      "price_stats": "Hozirgi narx",
+      "price_trend": "Narx tarixi",
+      "cheapest_offers": "Eng arzon takliflar",
+      "compare_regions": "Viloyatlar solishtiruvi",
+      "pressure_index": "Talab va taklif",
+      "forecast": "Prognoz",
+      "anomalies": "Shubhali kunlar",
+      "top_demand": "Eng ko'p so'ralganlar",
+      "find_product": "Mahsulotni topish",
+      "find_region": "Hududni topish",
+      "advice": "Maslahat",
+      "seasonality": "Mavsum",
+      "weekday_prices": "Hafta kunlari",
+      "price_reasons": "Narx sabablari",
+      "district_prices": "Tuman va bozorlar",
+      "wholesale_retail": "Ulgurji va chakana",
+      "arbitrage": "Arbitraj",
+      "region_overview": "Hudud holati",
+      "weekly_movers": "Haftalik o'zgarishlar",
+      "compare_products": "Mahsulotlar solishtiruvi",
+      "basket_cost": "Savat va retsept narxi",
+      "exchange_rate": "Valyuta kursi",
+      "weather": "Ob-havo",
+      "market_events": "Bozor voqealari",
+      "seller_info": "Sotuvchi",
+      "platform_help": "Yordam",
+      "create_request": "So'rov taklifi",
+      "watch_price": "Kuzatuv taklifi"
+    },
+    "errors": {
+      "unknown_product": "mahsulot topilmadi",
+      "unknown_region": "hudud topilmadi",
+      "bad_arguments": "so'rov noto'g'ri"
+    },
+    "params": {
+      "product": "Mahsulot",
+      "region": "Hudud",
+      "trade": "Savdo"
+    },
+    "basedOn": "{count} ta narx asosida"
+  },
+  "columns": {
+    "area": "Hudud",
+    "region": "Hudud",
+    "median": "O'rtacha",
+    "p25": "Arzon chorak",
+    "p75": "Qimmat chorak",
+    "min": "Eng arzon",
+    "max": "Eng qimmat",
+    "low": "Quyi chegara",
+    "high": "Yuqori chegara",
+    "observations": "Kuzatuvlar",
+    "from": "Boshlanishi",
+    "to": "Oxiri",
+    "week": "Hafta",
+    "date": "Sana",
+    "demo_share": "Demo ulushi",
+    "seller": "Sotuvchi",
+    "place": "Joy",
+    "price": "Narx",
+    "unit": "Birlik",
+    "min_order": "Eng kam buyurtma",
+    "stock": "Zaxira",
+    "updated": "Yangilangan",
+    "demand_now": "Talab (hozir)",
+    "demand_usual": "Talab (odatda)",
+    "sellers_now": "Sotuvchilar (hozir)",
+    "sellers_usual": "Sotuvchilar (odatda)",
+    "index": "Indeks",
+    "zone": "Holat",
+    "value": "Qiymat",
+    "expected": "Kutilgan",
+    "layer": "Qatlam",
+    "product": "Mahsulot",
+    "score": "Ball",
+    "usual": "Odatda",
+    "quantity": "Miqdor",
+    "cost": "Summa"
+  },
+  "failed": "Javob olib bo'lmadi. Birozdan keyin qayta urinib ko'ring.",
+  "rateLimited": "Juda ko'p savol berildi. Bir daqiqadan keyin qayta urinib ko'ring.",
+  "disclaimer": "Javob platformadagi e'lonlar va narx tarixiga asoslanadi; bu moliyaviy maslahat emas.",
+  "tableToggle": "Jadval · {count} qator",
+  "chat": {
+    "new": "Yangi suhbat",
+    "retry": "Qayta yuborish",
+    "placeholder": "Savolingizni yozing…",
+    "typing": "Yordamchi yozmoqda…",
+    "welcomeTitle": "Nima haqida so'raysiz?",
+    "welcomeText": "Narx, qayerda arzon, retsept yoki savat narxi, prognoz — oddiy tilda yozing. Keyingi savolda avvalgisini eslaydi.",
+    "forwarded": "Bu savol jamoamizga yetkazildi — yordamchini yaxshilashda hisobga olamiz.",
+    "busy": "AI hozir band, oddiy javob berildi.",
+    "optionsLabel": "Javob variantlari",
+    "offTitle": "Yordamchi hozircha mavjud emas",
+    "offText": "Keyinroq qayta urinib ko'ring. Narxlarni katalog va statistika sahifalarida ko'rishingiz mumkin.",
+    "invalid": "Xabar 1 dan {max} belgigacha bo'lishi kerak.",
+    "shortcut": "Enter — yuborish, Shift + Enter — yangi qator"
+  },
+  "actions": {
+    "product": "Mahsulot",
+    "area": "Hudud",
+    "trade": "Savdo turi",
+    "quantity": "Miqdor",
+    "days": "Javob muddati",
+    "daysValue": "{count} kun",
+    "cancel": "Bekor qilish",
+    "signIn": "Kirish",
+    "signInFirst": "Buning uchun Telegram orqali kiring. Kirgach, shu yerga qaytasiz.",
+    "watchSaved": "Kuzatuv qo'shildi. Narx tushsa, bot xabar beradi.",
+    "watch_price": {
+      "title": "Narxni kuzatish",
+      "description": "Narx tushsa yoki arzonroq taklif chiqsa, Telegram bot orqali xabar beramiz.",
+      "confirm": "Kuzatishni boshlash"
+    },
+    "create_request": {
+      "title": "Narx so'rovi yuborish",
+      "description": "So'rov formasi shu qiymatlar bilan to'ldirilib ochiladi. Tekshirib, o'zingiz yuborasiz.",
+      "confirm": "Formani ochish"
+    }
+  },
+  "widget": {
+    "title": "AI yordamchi",
+    "subtitle": "Bozor narxlari bo'yicha savol bering",
+    "launcher": "Savol bering",
+    "open": "AI yordamchini ochish",
+    "close": "Yopish",
+    "expand": "Katta oynada ochish",
+    "unread": "Yangi javob"
+  },
+  "page": {
+    "welcomeAside": "O'ngdagi namunalardan birini bosing yoki savolingizni pastga yozing.",
+    "skillsTitle": "Nimalarni so'rash mumkin",
+    "skills": {
+      "prices": {
+        "title": "Bugungi narx",
+        "text": "Viloyat, tuman va bozor bo'yicha"
+      },
+      "cheapest": {
+        "title": "Qayerda arzon",
+        "text": "Viloyatlar va takliflar solishtiruvi"
+      },
+      "basket": {
+        "title": "Savat va retsept",
+        "text": "Masalan, 10 kishilik osh qancha turadi"
+      },
+      "forecast": {
+        "title": "Prognoz va mavsum",
+        "text": "Narx qachon tushishi yoki oshishi"
+      },
+      "actions": {
+        "title": "Kuzatuv va so'rov",
+        "text": "Tayyorlab beradi, siz tasdiqlaysiz"
+      }
+    },
+    "examplesTitle": "Namuna savollar",
+    "dataNote": "Raqamlar platformadagi e'lonlar va narx tarixidan olinadi. Narxlar kam bo'lsa, yordamchi taxmin qilmaydi. Namoyish uchun bazada namunaviy (demo) narxlar ham bor."
+  }
+}

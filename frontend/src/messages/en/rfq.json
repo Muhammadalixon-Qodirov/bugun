@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "title": "My requests",
+    "detail": "Request: {product}"
+  },
+  "eyebrow": "Buying",
+  "title": "Requests",
+  "description": "Say what you need and how much: sellers in your province quote their prices, and the cheapest comes first.",
+  "deadline": "Until {date}, {time}",
+  "diff": {
+    "same": "at the market price",
+    "cheaper": "{percent}% below the market",
+    "dearer": "{percent}% above the market"
+  },
+  "contact": {
+    "show": "Show contact",
+    "opening": "Opening…",
+    "telegram": "Message on Telegram",
+    "none": "No contact method is shared."
+  },
+  "notBuyer": {
+    "title": "Market administrations don't send requests",
+    "text": "Purchase requests are sent by entrepreneurs. Your account is for watching market prices and reports; they are in your cabinet.",
+    "action": "Go to cabinet"
+  },
+  "form": {
+    "title": "New request",
+    "hint": "The request goes to sellers of this product in your province.",
+    "limit": "You can have at most {max} open requests at a time. Close one or wait for one to end.",
+    "product": "Product",
+    "search": "Search products: tomatoes, cement…",
+    "all": "All",
+    "empty": "No such product.",
+    "change": "Change",
+    "quantity": "Quantity",
+    "maxPrice": "Highest price",
+    "maxPriceHint": "Sellers see how much you are ready to pay.",
+    "days": "Time to answer",
+    "daysValue": "{count, plural, one {# day} other {# days}}",
+    "daysHint": "Sellers can quote until then.",
+    "note": "Note",
+    "notePlaceholder": "E.g. variety, delivery, when you need it",
+    "noteHint": "Sellers do not see your name or contact.",
+    "submit": "Send request",
+    "sending": "Sending…"
+  },
+  "validation": {
+    "quantityRequired": "Enter the quantity.",
+    "quantity": "The quantity must be above 0 and at most 10,000,000.",
+    "maxPrice": "The price must be between 50 and 50,000,000 UZS.",
+    "noteMax": "The note must be at most {max} characters.",
+    "days": "The time to answer must be from {min} to {max} days."
+  },
+  "sent": {
+    "title": "{count, plural, one {Request sent to # seller} other {Request sent to # sellers}}",
+    "text": "Offers show up here and in the Telegram bot as they arrive, the cheapest first.",
+    "noneTitle": "No active sellers in your province yet",
+    "noneText": "The request stays open: sellers who list this product before the deadline will see it.",
+    "open": "Open the request",
+    "another": "Another request"
+  },
+  "list": {
+    "title": "My requests",
+    "openCount": "{count} of {max} open",
+    "emptyTitle": "No requests yet",
+    "emptyText": "Send your first request with the form above.",
+    "product": "Product",
+    "offers": "Offers",
+    "best": "Best price",
+    "deadline": "Deadline",
+    "offersShort": "{count, plural, one {# offer} other {# offers}}",
+    "bestShort": "best",
+    "noOffers": "No offers"
+  },
+  "detail": {
+    "back": "My requests",
+    "missingTitle": "Request not found",
+    "missingText": "This request was removed or belongs to another account.",
+    "missingAction": "Back to my requests",
+    "maxPrice": "Highest price",
+    "close": "Close request",
+    "chosenToast": "Offer chosen. Waiting for the seller to confirm.",
+    "closedToast": "Request closed",
+    "stats": {
+      "offers": "Offers",
+      "offersHint": "sellers who quoted",
+      "best": "Best offer",
+      "none": "no offers yet",
+      "median": "Market price",
+      "medianNone": "not enough data",
+      "savings": "You save",
+      "savingsHint": "UZS against the market price",
+      "total": "Total",
+      "totalHint": "at the best offer"
+    },
+    "offersTitle": "Offers",
+    "empty": {
+      "openTitle": "Waiting for offers",
+      "openText": "Offers appear here as sellers quote. The Telegram bot tells you too.",
+      "closedTitle": "No offers came",
+      "closedText": "Nobody quoted on this request. Try again with another quantity or deadline."
+    },
+    "closeDialog": {
+      "title": "Close this request?",
+      "text": "Sellers will no longer be able to quote or confirm chosen offers.",
+      "confirm": "Close request"
+    },
+    "cheapest": "Cheapest",
+    "total": "Total: {sum} UZS",
+    "canSupply": "Can supply: {amount}",
+    "choose": "Choose",
+    "waiting": "Waiting for the seller",
+    "rejected": "The seller declined",
+    "chosenBadge": "You chose it"
+  }
+}

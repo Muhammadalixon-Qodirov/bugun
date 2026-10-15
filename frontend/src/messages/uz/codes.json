@@ -1,0 +1,186 @@
+{
+  "reviewReason": {
+    "jump_from_previous": {
+      "title": "Oldingi narxidan keskin farq",
+      "hint": "Narx shu sotuvchining oxirgi qabul qilingan narxidan 5 barobar yoki undan ko'p farq qiladi: ehtimol nol ortiqcha yoki kam yozilgan."
+    },
+    "far_from_market": {
+      "title": "Bozordan juda farq qiladi",
+      "hint": "Narx viloyatdagi boshqa sotuvchilar narxidan keskin farq qiladi."
+    },
+    "far_from_reference": {
+      "title": "Rasmiy narxdan uzoq",
+      "hint": "Viloyatda sotuvchi kam, narx esa UzEx yoki narxtahlil narxidan 50% dan ko'p farq qiladi."
+    },
+    "content_spam": {
+      "title": "Spamga o'xshaydi",
+      "hint": "E'lon matnida reklama, havola yoki mahsulotga aloqasiz takroriy gaplar bor."
+    },
+    "content_abuse": {
+      "title": "Haqoratli matn",
+      "hint": "E'lon matnida qo'pol yoki haqoratli so'zlar bor."
+    },
+    "content_prohibited": {
+      "title": "Taqiqlangan mahsulot",
+      "hint": "Matnga ko'ra e'lon sotish taqiqlangan narsa haqida bo'lishi mumkin."
+    },
+    "content_off_category": {
+      "title": "Mahsulotga mos emas",
+      "hint": "E'lon matni tanlangan mahsulot haqida emasga o'xshaydi."
+    }
+  },
+  "zone": {
+    "surplus": {
+      "label": "Taklif ko'p",
+      "hint": "Xarid uchun qulay payt"
+    },
+    "balanced": {
+      "label": "Muvozanat",
+      "hint": "Talab va taklif teng"
+    },
+    "shortage": {
+      "label": "Talab yuqori",
+      "hint": "Narx oshishi mumkin"
+    },
+    "none": "Ma'lumot yig'ilmoqda"
+  },
+  "adviceBuyer": {
+    "buy_now": "Hozir oling",
+    "wait": "Kuting",
+    "neutral": "Neytral"
+  },
+  "adviceSeller": {
+    "sell_now": "Hozir soting",
+    "hold": "Kuting, narx oshadi",
+    "neutral": "Neytral"
+  },
+  "trend": {
+    "up": "Narx oshmoqda",
+    "down": "Narx tushmoqda",
+    "flat": "Narx barqaror"
+  },
+  "goal": {
+    "fast": {
+      "label": "Tez sotish",
+      "hint": "Bozordan taxminan 3% arzon"
+    },
+    "balanced": {
+      "label": "Muvozanat",
+      "hint": "Bozor narxi atrofida"
+    },
+    "profit": {
+      "label": "Ko'proq foyda",
+      "hint": "Bozordan taxminan 3% qimmat"
+    }
+  },
+  "factor": {
+    "goal": {
+      "up": "Maqsad: foyda",
+      "down": "Maqsad: tez sotish"
+    },
+    "pressure": {
+      "up": "Talab odatdagidan yuqori",
+      "down": "Taklif odatdagidan ko'p"
+    },
+    "trend": {
+      "up": "Bozor narxi hafta ichida oshdi",
+      "down": "Bozor narxi hafta ichida tushdi"
+    },
+    "response": {
+      "up": "Ko'rish va bog'lanishlar yaxshi",
+      "down": "Ko'p ko'rilyapti, kam bog'lanishyapti"
+    },
+    "rfq": {
+      "up": "So'rovlarda tanlanyapsiz",
+      "down": "So'rovlarda boshqa sotuvchilar tanlandi"
+    },
+    "sales": {
+      "up": "Boshqalardan tezroq sotilyapti",
+      "down": "Bog'lanishlar bor, lekin sotuv yo'q"
+    },
+    "stock": {
+      "up": "Zaxirangiz kam",
+      "down": "Zaxirangiz ko'p"
+    },
+    "cap": {
+      "up": "Chegara: oraliq, bozor yoki kunlik 5%",
+      "down": "Chegara: oraliq, bozor yoki kunlik 5%"
+    },
+    "market": {
+      "up": "Viloyat medianiga qarab oshish",
+      "down": "Viloyat medianiga qarab tushish"
+    },
+    "rounding": {
+      "up": "Bozor narx qadamiga yaxlitlash",
+      "down": "Bozor narx qadamiga yaxlitlash"
+    }
+  },
+  "source": {
+    "seller": "Sotuvchi narxi",
+    "seller_auto": "Avtomatik narx",
+    "rfq_offer": "So'rovga taklif",
+    "deal": "Tasdiqlangan savdo",
+    "telegram_channel": "Telegram kanal",
+    "olx": "OLX",
+    "uzex": "UzEx birjasi",
+    "narxtahlil": "narxtahlil.uz"
+  },
+  "eventKind": {
+    "frost": "Sovuq",
+    "heat": "Jazirama",
+    "rain": "Yomg'ir",
+    "export": "Eksport",
+    "import": "Import",
+    "fuel": "Yoqilg'i",
+    "currency": "Valyuta",
+    "holiday": "Bayram",
+    "harvest": "Hosil",
+    "roads": "Yo'llar",
+    "policy": "Qaror",
+    "other": "Boshqa"
+  },
+  "sellerReason": {
+    "supply_low": "Mahsulot kam",
+    "demand_up": "Talab oshdi",
+    "costs_up": "Yo'l va xarajat qimmatladi",
+    "export": "Eksport",
+    "supply_high": "Mahsulot ko'p",
+    "demand_down": "Talab tushdi",
+    "sell_fast": "Tez sotish kerak",
+    "import": "Import",
+    "market": "Bozorga moslashdim",
+    "other": "Boshqa sabab"
+  },
+  "rfqStatus": {
+    "open": "Ochiq",
+    "closed": "Muddati tugadi",
+    "cancelled": "Yopilgan"
+  },
+  "offerStatus": {
+    "sent": "Taklif yuborilgan",
+    "declined": "Menda yo'q",
+    "chosen": "Xaridor tanladi",
+    "confirmed": "Kelishildi",
+    "rejected": "Rad etildi"
+  },
+  "dealStatus": {
+    "reported": "Bir tomon aytgan",
+    "confirmed": "Tasdiqlangan",
+    "disputed": "Tortishuvli"
+  },
+  "dealSource": {
+    "rfq": "So'rov",
+    "contact": "Bog'lanish",
+    "seller_marked": "«Sotildi» tugmasi"
+  },
+  "period": {
+    "30d": "30 kun",
+    "90d": "90 kun",
+    "1y": "1 yil",
+    "3y": "3 yil"
+  },
+  "demo": "Demo ma'lumot",
+  "demoHint": "Tarix namuna sifatida yaratilgan: haqiqiy narxlar yig'ilgan sari almashadi.",
+  "demoShareHint": "Bu raqamlar ortidagi narxlarning {share} qismi namuna (demo) ma'lumot: haqiqiy narxlar yig'ilgan sari almashadi.",
+  "demoShareLabel": "{share} demo"
+}

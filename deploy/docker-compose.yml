@@ -1,0 +1,99 @@
+# Production stack. Run through deploy/deploy.sh, which passes the server's
+# .env file (BUGUN_ENV_FILE; template: deploy/.env.example). Secrets live
+# only in that file, never in the repository.
+#
+# Manual commands use the same flags as the scripts, for example:
+#   docker compose -p bugun -f deploy/docker-compose.yml --env-file "$BUGUN_ENV_FILE" logs -f api
+# Demo data (the seed image is built only on request, never deployed):
+#   ... --profile tools build seed && ... --profile tools run --rm seed -history 3
+name: bugun
+
+x-logging: &logging
+  driver: json-file
+  options: { max-size: "10m", max-file: "3" }
+
+x-api-env: &api-env
+  DATABASE_URL: postgres://bugun:${POSTGRES_PASSWORD}@postgres:5432/bugun?sslmode=disable
+  APP_ENV: production
+  HTTP_ADDR: ":8080"
+  MEDIA_DIR: /data/media
+
+services:
+  postgres:
+    # postgres:16-alpine
+    image: postgres:16-alpine@sha256:721873c34ceb9f8d8fc265984940dc982404c105f19ad51be9fdc5970a6080ea
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: bugun
+      POSTGRES_USER: bugun
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      TZ: UTC
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bugun -d bugun"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+    logging: *logging
+
+  api:
+    build:
+      context: ../backend
+      target: runtime
+    # deploy.sh sets API_IMAGE_TAG to the git short SHA; "latest" is the last
+    # image that passed its health check.
+    image: bugun-api:${API_IMAGE_TAG:-latest}
+    restart: unless-stopped
+    env_file: ${BUGUN_ENV_FILE:?}
+    environment:
+      <<: *api-env
+      # deploy.sh runs "migrate up" as its own step before starting the API,
+      # so a rolled-back API never tries to migrate a newer schema.
+      MIGRATE_ON_START: ${MIGRATE_ON_START:-false}
+      # nginx on the host reaches the container through the Docker bridge
+      # gateway (default pools are inside 172.16.0.0/12), so that is the proxy
+      # whose X-Forwarded-For the API may believe.
+      TRUSTED_PROXIES: ${TRUSTED_PROXIES:-172.16.0.0/12}
+    # Only nginx on the same host can reach the API.
+    ports:
+      - "127.0.0.1:${API_PORT:-8090}:8080"
+    volumes:
+      - media:/data/media
+    depends_on:
+      postgres:
+        condition: service_healthy
+    logging: *logging
+
+  # One-off: docker compose ... run --rm migrate [up|status]
+  migrate:
+    image: bugun-api:${API_IMAGE_TAG:-latest}
+    profiles: [tools]
+    env_file: ${BUGUN_ENV_FILE:?}
+    environment: *api-env
+    entrypoint: ["/usr/local/bin/migrate"]
+    command: ["up"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+    logging: *logging
+
+  # One-off demo data loader, built from the Dockerfile's "seed" target.
+  seed:
+    build:
+      context: ../backend
+      target: seed
+    image: bugun-seed:${API_IMAGE_TAG:-latest}
+    profiles: [tools]
+    env_file: ${BUGUN_ENV_FILE:?}
+    environment: *api-env
+    volumes:
+      - media:/data/media
+    depends_on:
+      postgres:
+        condition: service_healthy
+    logging: *logging
+
+volumes:
+  pgdata:
+  media:

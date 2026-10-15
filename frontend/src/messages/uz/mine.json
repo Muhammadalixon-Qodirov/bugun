@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Mahsulotlarim"
+  },
+  "eyebrow": "Tadbirkor kabineti",
+  "title": "Mahsulotlarim",
+  "description": "Narx 7 kun amal qiladi. O'zgarmagan bo'lsa, bir bosishda uzaytiring.",
+  "textPrice": "Matn bilan narx",
+  "newListing": "Yangi e'lon",
+  "empty": {
+    "title": "Hali e'lon yo'q",
+    "description": "Birinchi mahsulotingizni rasm bilan joylang: xaridorlar marketda ko'radi, narxingiz esa bozor o'rtachasi bilan solishtiriladi.",
+    "action": "Birinchi e'lonni joylash"
+  },
+  "stats": {
+    "live": "Faol e'lonlar",
+    "liveHint": "jami {count} ta",
+    "views": "Ko'rishlar",
+    "viewsHint": "barcha e'lonlar bo'yicha",
+    "attention": "Uzaytirish kerak",
+    "attentionHint": "2 kundan kam qolgan yoki o'tgan",
+    "review": "Tekshiruvda",
+    "reviewHint": "narx bozordan keskin farq qilsa"
+  },
+  "tabsLabel": "Holat",
+  "tabs": {
+    "all": "Hammasi",
+    "live": "Faol",
+    "attention": "Uzaytirish kerak",
+    "review": "Tekshiruvda",
+    "hidden": "Yashirilgan"
+  },
+  "states": {
+    "active": "Faol",
+    "ending": "Muddati tugayapti",
+    "review": "Tekshirilmoqda",
+    "hidden": "Yashirilgan",
+    "expired": "Muddati o'tgan",
+    "rejected": "Rad etilgan"
+  },
+  "searchPlaceholder": "Nom bo'yicha",
+  "searchLabel": "E'lonlarni nom bo'yicha qidirish",
+  "renewedMany": "{count} ta e'lon yana 7 kunga uzaytirildi",
+  "nothingToRenew": "Uzaytiradigan e'lon qolmadi",
+  "stale": "<b>{count} ta e'lon</b> muddati tugayapti yoki o'tgan. Narx o'zgarmagan bo'lsa, bir bosishda yana 7 kunga uzaytiring.",
+  "renewAll": "Hammasini uzaytirish",
+  "columns": {
+    "product": "Mahsulot",
+    "price": "Narx",
+    "views": "Ko'rishlar",
+    "state": "Holat",
+    "actions": "Amallar",
+    "funnel": "So'nggi 7 kun"
+  },
+  "emptySearch": "«{query}» bo'yicha e'lon topilmadi.",
+  "emptyTab": "Bu bo'limda e'lon yo'q.",
+  "medianProvince": "O'rtacha narx viloyatingizda: {price} so'm",
+  "medianCountry": "O'rtacha narx respublika bo'yicha: {price} so'm",
+  "atMarket": "bozor narxida",
+  "belowMarket": "bozordan {percent}% arzon",
+  "aboveMarket": "bozordan {percent}% qimmat",
+  "actions": {
+    "renewed": "Yana 7 kunga uzaytirildi",
+    "deleted": "E'lon o'chirildi",
+    "renew": "Uzaytirish",
+    "edit": "Tahrirlash",
+    "more": "Boshqa amallar",
+    "renewWeek": "7 kunga uzaytirish",
+    "show": "Ko'rsatish",
+    "hide": "Yashirish",
+    "sold": "Sotildi",
+    "stats": "Statistika"
+  },
+  "signals": {
+    "position": "{rank}-o'rin / {total}",
+    "positionHint": "Viloyatingizdagi {total} sotuvchi ichida (1-o'rin eng arzon). Boshqalarning o'rtacha narxi {price} so'm, sizniki {diff}.",
+    "auto": "Avto",
+    "range": "{min} – {max}",
+    "autoHint": "Narx bozorga qarab siz bergan oraliqda avtomatik yangilanadi",
+    "paused": "Pauza: {time} gacha",
+    "funnelLabel": "So'nggi 7 kunda: {views} kishi ko'rdi, {contacts} kishi bog'landi, {deals} ta savdo",
+    "reviewTitle": "Tekshiruvda: {reason}.",
+    "reviewTitleNoReason": "Tekshiruvda.",
+    "reviewHint": "Administrator ko'rib chiqqach e'lon chiqadi. Narxda xato bo'lsa, tahrirlab tuzating.",
+    "rejectedTitle": "Administrator rad etgan.",
+    "rejectedHint": "Bu e'lonni tahrirlab yoki narxni qayta yuborib tiklab bo'lmaydi: uni o'chirib, yangidan joylang.",
+    "adminNote": "Administrator izohi: «{note}»"
+  },
+  "sold": {
+    "title": "Sotuvni belgilash",
+    "description": "Qancha sotganingizni yozing. Zaxira ko'rsatilgan bo'lsa, u shuncha kamayadi.",
+    "quantity": "Sotilgan miqdor, {unit}",
+    "max": "maks. {amount} {unit}",
+    "price": "Kelishilgan narx",
+    "priceHint": "Bozordagi savdo narxlarini aniqroq qiladi.",
+    "submit": "Sotildi deb belgilash",
+    "recorded": "Sotuv yozildi",
+    "confirmed": "Savdo tasdiqlandi — xaridor ham aytgan edi",
+    "soldOut": "Zaxira tugadi, e'lon yashirildi",
+    "updateStock": "Zaxirani yangilash"
+  }
+}

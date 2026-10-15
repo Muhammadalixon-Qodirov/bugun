@@ -1,0 +1,38 @@
+{
+  "language": "Til",
+  "localeNames": {
+    "uz": "O'zbekcha",
+    "en": "English",
+    "ru": "Русский"
+  },
+  "som": "so'm",
+  "perUnit": "so'm/{unit}",
+  "cancel": "Bekor",
+  "save": "Saqlash",
+  "saved": "Saqlandi",
+  "delete": "O'chirish",
+  "clear": "Tozalash",
+  "clearAll": "Hammasini tozalash",
+  "close": "Yopish",
+  "back": "Orqaga",
+  "previous": "Oldingi",
+  "next": "Keyingi",
+  "all": "Hammasi",
+  "notFound": "Topilmadi",
+  "optional": "ixtiyoriy",
+  "wholesale": "Ulgurji",
+  "retail": "Chakana",
+  "wholesaleLower": "ulgurji",
+  "retailLower": "chakana",
+  "wholeCountry": "Butun O'zbekiston",
+  "market": "Market",
+  "loading": "Yuklanmoqda…",
+  "saving": "Saqlanmoqda…",
+  "sections": "Bo'limlar",
+  "theme": "Mavzu",
+  "themes": {
+    "light": "Yorug'",
+    "dark": "Qorong'i",
+    "system": "Tizim"
+  }
+}

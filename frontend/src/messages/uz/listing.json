@@ -1,0 +1,44 @@
+{
+  "metaFallback": "E'lon",
+  "metaBelow": "bozordan {percent}% arzon",
+  "breadcrumb": "Yo'l",
+  "views": "{count} marta ko'rildi",
+  "perUnitSpaced": "so'm / {unit}",
+  "atMarket": "Bozor narxida",
+  "belowMarket": "Bozordan {percent}% arzon",
+  "aboveMarket": "Bozordan {percent}% qimmat",
+  "average": "O'rtacha <b>{price}</b> · {scope}",
+  "basedOn": "{count} ta sotuvchi narxi asosida",
+  "collecting": "Bozor narxi uchun ma'lumot yig'ilmoqda ({count} ta narx).",
+  "sellerSince": "{date} dan beri · {count} ta e'lon",
+  "safety": "Bugun savdoda vositachi emas: to'lov va yetkazish sotuvchi bilan kelishiladi. Oldindan to'lov qilmang.",
+  "details": "Tafsilotlar",
+  "description": "Tavsif",
+  "specs": {
+    "trade": "Savdo turi",
+    "minOrder": "Minimal buyurtma",
+    "stock": "Mavjud hajm",
+    "region": "Hudud",
+    "market": "Bozor",
+    "updated": "Yangilangan",
+    "validUntil": "Amal qiladi"
+  },
+  "otherSellers": "Boshqa sotuvchilar",
+  "otherSellersHint": "Shu mahsulot, arzonidan boshlab",
+  "fromSeller": "{seller} — boshqa e'lonlar",
+  "barMedian": "O'rtacha narx",
+  "barThis": "Shu e'lon",
+  "all": "Hammasi",
+  "rating": {
+    "summary": "{average} · {count} ta baho",
+    "stars": "5 dan {stars}",
+    "title": "Xaridorlar bahosi",
+    "note": "Faqat tasdiqlangan savdodan keyin"
+  },
+  "tools": {
+    "compare": "Narxlarni solishtirish",
+    "compareHint": "Barcha sotuvchilar, arzonidan",
+    "analysis": "Tahlil va prognoz",
+    "analysisHint": "Narx tarixi, mavsum, 4 hafta oldinga"
+  }
+}

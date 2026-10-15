@@ -1,0 +1,79 @@
+{
+  "metaTitle": "Cabinet",
+  "title": "Cabinet",
+  "description": "Reports and regional analytics in one place.",
+  "sellerDescription": "Quote on buyers' requests and follow your agreed deals.",
+  "inbox": {
+    "title": "Incoming requests",
+    "chosenCount": "{count, plural, one {# awaits your answer} other {# await your answer}}",
+    "emptyTitle": "No requests yet",
+    "emptyText": "When buyers in your province request a product you sell, it shows up here.",
+    "emptyAction": "My products",
+    "chosenBanner": "The buyer chose your offer",
+    "chosenText": "Your offer: <b>{price}</b> UZS/{unit}. If you agree, you both see each other's contact.",
+    "agree": "Agree",
+    "decline": "Decline",
+    "declineDialog": {
+      "title": "Decline the deal?",
+      "text": "The buyer is told that you declined. This can't be undone.",
+      "confirm": "Decline"
+    },
+    "agreedToast": "Deal agreed! You can now see the buyer's contact.",
+    "declinedDealToast": "Deal declined",
+    "agreed": "Agreed at <b>{price}</b> UZS/{unit}",
+    "youDeclined": "You declined this deal.",
+    "closed": "The request is closed.",
+    "closedWithOffer": "The request is closed. Your offer: {price} UZS/{unit}.",
+    "maxPrice": "Buyer's limit",
+    "sent": "Offer sent: <b>{price}</b> UZS/{unit}",
+    "changePrice": "Change price",
+    "markedNone": "You marked it as not available. If you get the product, you can still quote.",
+    "price": "Your price",
+    "quantity": "You can supply",
+    "sendOffer": "Send offer",
+    "updateOffer": "Update",
+    "none": "I don't have it",
+    "sentToast": "Offer sent",
+    "declinedToast": "Marked as not available",
+    "validation": {
+      "priceRequired": "Enter your price.",
+      "priceRange": "The price must be between 50 and 50,000,000 UZS.",
+      "quantity": "The quantity must be above 0 and at most 10,000,000."
+    }
+  },
+  "listings": {
+    "title": "My products",
+    "live": "{count} live of {total}",
+    "attention": "{count, plural, one {# listing needs renewing} other {# listings need renewing}}",
+    "new": "Listing",
+    "text": "By text"
+  },
+  "how": {
+    "title": "How it works",
+    "one": "A buyer in your province requests a product you sell.",
+    "two": "You quote a price or say you don't have it.",
+    "three": "If the buyer chooses you and you agree, contacts open."
+  },
+  "pending": {
+    "text": "Once an administrator approves your role, you can download the weekly PDF report here. Meanwhile, use the public statistics.",
+    "statistics": "Statistics"
+  },
+  "admin": {
+    "title": "Administration",
+    "text": "Review queue and role requests"
+  },
+  "report": {
+    "title": "Weekly report (PDF)",
+    "text": "Prices, demand and supply in a province, compared with the week before.",
+    "province": "Province",
+    "choose": "Choose a province",
+    "download": "Download PDF",
+    "note": "The report is in Uzbek.",
+    "statistics": "Overall statistics",
+    "region": "{name}: regional analytics"
+  },
+  "buying": {
+    "title": "My requests",
+    "text": "Ask sellers for a price"
+  }
+}

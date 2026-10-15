@@ -1,0 +1,186 @@
+{
+  "reviewReason": {
+    "jump_from_previous": {
+      "title": "Far from the previous price",
+      "hint": "The price is 5 or more times off this seller's last accepted price: a zero may be missing or extra."
+    },
+    "far_from_market": {
+      "title": "Far from the market",
+      "hint": "The price is far from other sellers' prices in the province."
+    },
+    "far_from_reference": {
+      "title": "Far from the official price",
+      "hint": "Few sellers in the province, and the price is over 50% away from the UzEx or narxtahlil price."
+    },
+    "content_spam": {
+      "title": "Looks like spam",
+      "hint": "The listing text has ads, links or repeated phrases unrelated to the product."
+    },
+    "content_abuse": {
+      "title": "Offensive text",
+      "hint": "The listing text has rude or offensive words."
+    },
+    "content_prohibited": {
+      "title": "Prohibited goods",
+      "hint": "Going by its text, the listing may be about something that must not be sold."
+    },
+    "content_off_category": {
+      "title": "Not about the product",
+      "hint": "The listing text does not seem to be about the chosen product."
+    }
+  },
+  "zone": {
+    "surplus": {
+      "label": "Plenty of supply",
+      "hint": "A good time to buy"
+    },
+    "balanced": {
+      "label": "Balanced",
+      "hint": "Demand and supply are even"
+    },
+    "shortage": {
+      "label": "High demand",
+      "hint": "The price may rise"
+    },
+    "none": "Collecting data"
+  },
+  "adviceBuyer": {
+    "buy_now": "Buy now",
+    "wait": "Wait",
+    "neutral": "Neutral"
+  },
+  "adviceSeller": {
+    "sell_now": "Sell now",
+    "hold": "Hold, the price is rising",
+    "neutral": "Neutral"
+  },
+  "trend": {
+    "up": "The price is rising",
+    "down": "The price is falling",
+    "flat": "The price is steady"
+  },
+  "goal": {
+    "fast": {
+      "label": "Sell fast",
+      "hint": "About 3% below the market"
+    },
+    "balanced": {
+      "label": "Balanced",
+      "hint": "Around the market price"
+    },
+    "profit": {
+      "label": "More profit",
+      "hint": "About 3% above the market"
+    }
+  },
+  "factor": {
+    "goal": {
+      "up": "Goal: profit",
+      "down": "Goal: sell fast"
+    },
+    "pressure": {
+      "up": "Demand is higher than usual",
+      "down": "Supply is higher than usual"
+    },
+    "trend": {
+      "up": "The market price rose this week",
+      "down": "The market price fell this week"
+    },
+    "response": {
+      "up": "Views and contacts are good",
+      "down": "Many views, few contacts"
+    },
+    "rfq": {
+      "up": "You're chosen in requests",
+      "down": "Other sellers were chosen in requests"
+    },
+    "sales": {
+      "up": "Selling faster than others",
+      "down": "Contacts but no sales"
+    },
+    "stock": {
+      "up": "Your stock is low",
+      "down": "Your stock is high"
+    },
+    "cap": {
+      "up": "Limit: range, market or 5% a day",
+      "down": "Limit: range, market or 5% a day"
+    },
+    "market": {
+      "up": "Rising toward the province median",
+      "down": "Falling toward the province median"
+    },
+    "rounding": {
+      "up": "Rounded to a market price step",
+      "down": "Rounded to a market price step"
+    }
+  },
+  "source": {
+    "seller": "Seller price",
+    "seller_auto": "Automatic price",
+    "rfq_offer": "Request offer",
+    "deal": "Confirmed deal",
+    "telegram_channel": "Telegram channel",
+    "olx": "OLX",
+    "uzex": "UzEx exchange",
+    "narxtahlil": "narxtahlil.uz"
+  },
+  "eventKind": {
+    "frost": "Frost",
+    "heat": "Heat",
+    "rain": "Rain",
+    "export": "Export",
+    "import": "Import",
+    "fuel": "Fuel",
+    "currency": "Currency",
+    "holiday": "Holiday",
+    "harvest": "Harvest",
+    "roads": "Roads",
+    "policy": "Policy",
+    "other": "Other"
+  },
+  "sellerReason": {
+    "supply_low": "Low supply",
+    "demand_up": "Demand rose",
+    "costs_up": "Transport and costs rose",
+    "export": "Export",
+    "supply_high": "Plenty of supply",
+    "demand_down": "Demand fell",
+    "sell_fast": "Need to sell fast",
+    "import": "Import",
+    "market": "Followed the market",
+    "other": "Other reason"
+  },
+  "rfqStatus": {
+    "open": "Open",
+    "closed": "Ended",
+    "cancelled": "Closed"
+  },
+  "offerStatus": {
+    "sent": "Offer sent",
+    "declined": "Not available",
+    "chosen": "Chosen by the buyer",
+    "confirmed": "Agreed",
+    "rejected": "Declined"
+  },
+  "dealStatus": {
+    "reported": "Reported by one side",
+    "confirmed": "Confirmed",
+    "disputed": "Disputed"
+  },
+  "dealSource": {
+    "rfq": "Request",
+    "contact": "Contact",
+    "seller_marked": "“Sold” button"
+  },
+  "period": {
+    "30d": "30 days",
+    "90d": "90 days",
+    "1y": "1 year",
+    "3y": "3 years"
+  },
+  "demo": "Demo data",
+  "demoHint": "The history is generated as a sample and is replaced as real prices come in.",
+  "demoShareHint": "{share} of the prices behind these numbers are sample (demo) data, replaced as real prices come in.",
+  "demoShareLabel": "{share} demo"
+}

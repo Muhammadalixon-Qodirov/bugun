@@ -1,0 +1,79 @@
+{
+  "metaTitle": "Kabinet",
+  "title": "Kabinet",
+  "description": "Hisobotlar va hudud tahlili bir joyda.",
+  "sellerDescription": "Xaridorlar so'rovlariga narx bering va kelishilgan savdolarni kuzating.",
+  "inbox": {
+    "title": "Kelgan so'rovlar",
+    "chosenCount": "{count} ta javob kutmoqda",
+    "emptyTitle": "Hozircha so'rov yo'q",
+    "emptyText": "Xaridorlar viloyatingizda siz sotayotgan mahsulotga so'rov yuborsa, shu yerda ko'rasiz.",
+    "emptyAction": "Mahsulotlarim",
+    "chosenBanner": "Xaridor taklifingizni tanladi",
+    "chosenText": "Taklifingiz: <b>{price}</b> so'm/{unit}. Rozi bo'lsangiz, ikkalangiz bir-biringizning kontaktini ko'rasiz.",
+    "agree": "Roziman",
+    "decline": "Yo'q",
+    "declineDialog": {
+      "title": "Taklifni rad etasizmi?",
+      "text": "Xaridorga sotuvchi rad etgani haqida xabar boradi. Buni qaytarib bo'lmaydi.",
+      "confirm": "Rad etish"
+    },
+    "agreedToast": "Kelishildi! Endi xaridor kontaktini ko'rishingiz mumkin.",
+    "declinedDealToast": "Taklif rad etildi",
+    "agreed": "Kelishildi: <b>{price}</b> so'm/{unit}",
+    "youDeclined": "Siz bu savdoni rad etgansiz.",
+    "closed": "So'rov yopilgan.",
+    "closedWithOffer": "So'rov yopilgan. Taklifingiz: {price} so'm/{unit}.",
+    "maxPrice": "Xaridor narxi",
+    "sent": "Taklif yuborildi: <b>{price}</b> so'm/{unit}",
+    "changePrice": "Narxni o'zgartirish",
+    "markedNone": "Siz «Menda yo'q» deb belgilagansiz. Mahsulot paydo bo'lsa, narx yuborishingiz mumkin.",
+    "price": "Narxingiz",
+    "quantity": "Bera olasiz",
+    "sendOffer": "Taklif yuborish",
+    "updateOffer": "Yangilash",
+    "none": "Menda yo'q",
+    "sentToast": "Taklif yuborildi",
+    "declinedToast": "«Menda yo'q» deb belgilandi",
+    "validation": {
+      "priceRequired": "Narxni yozing.",
+      "priceRange": "Narx 50 so'mdan 50 000 000 so'mgacha bo'lsin.",
+      "quantity": "Miqdor 0 dan katta va 10 000 000 dan oshmasin."
+    }
+  },
+  "listings": {
+    "title": "Mahsulotlarim",
+    "live": "{count} ta faol, jami {total} ta",
+    "attention": "{count} ta e'lonni uzaytirish kerak",
+    "new": "E'lon",
+    "text": "Matn bilan"
+  },
+  "how": {
+    "title": "Qanday ishlaydi",
+    "one": "Xaridor viloyatingizda siz sotayotgan mahsulotga so'rov yuboradi.",
+    "two": "Siz narx berasiz yoki «Menda yo'q» deysiz.",
+    "three": "Xaridor tanlasa va siz rozi bo'lsangiz, kontaktlar ochiladi."
+  },
+  "pending": {
+    "text": "Rolingizni administrator tasdiqlagach, shu yerda haftalik PDF hisobotni yuklab olasiz. Hozircha ochiq statistikadan foydalaning.",
+    "statistics": "Statistika"
+  },
+  "admin": {
+    "title": "Administrator",
+    "text": "Tekshiruv navbati va rol so'rovlari"
+  },
+  "report": {
+    "title": "Haftalik hisobot (PDF)",
+    "text": "Viloyat bo'yicha narxlar, talab va taklif, o'tgan haftaga nisbatan o'zgarishlar.",
+    "province": "Viloyat",
+    "choose": "Viloyatni tanlang",
+    "download": "PDF yuklab olish",
+    "note": "Hisobot o'zbek tilida tayyorlanadi.",
+    "statistics": "Umumiy statistika",
+    "region": "{name}: hudud tahlili"
+  },
+  "buying": {
+    "title": "So'rovlarim",
+    "text": "Xarid uchun narx so'rang"
+  }
+}

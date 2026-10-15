@@ -1,0 +1,27 @@
+{
+  "title": "Statistika",
+  "hint": "Har bir kishi kuniga bir marta sanaladi. Sizning o'zingiz hisobga olinmaysiz.",
+  "period": "Davr",
+  "days": "{count} kun",
+  "failed": "Statistikani yuklab bo'lmadi. Birozdan keyin qayta urinib ko'ring.",
+  "views": "Ko'rganlar",
+  "viewsHint": "noyob kishilar",
+  "contacts": "Bog'langanlar",
+  "contactsHint": "kontaktni ochganlar",
+  "rate": "Bog'lanish ulushi",
+  "rateHint": "ko'rganlardan",
+  "deals": "Tasdiqlangan savdolar",
+  "dealsReported": "{count} ta kutilmoqda",
+  "sold": "{amount} {unit} sotildi",
+  "series": {
+    "views": "Ko'rishlar",
+    "contacts": "Bog'lanishlar"
+  },
+  "chartTitle": "Kunlar bo'yicha",
+  "chartLabel": "So'nggi {days} kundagi ko'rishlar va bog'lanishlar, kunlar bo'yicha",
+  "marketTitle": "Bozor bilan solishtirish",
+  "marketCompare": "Ko'rganlarning <b>{mine}</b> qismi siz bilan bog'landi. Viloyatda o'rtacha: <b>{market}</b>.",
+  "marketBasis": "Viloyatdagi shu mahsulotning {count} ta boshqa e'loni: har biriga o'rtacha {views} ko'rish va {contacts} bog'lanish.",
+  "lowResponse": "Siz bilan bog'lanish viloyat o'rtachasining yarmidan ham kam. Narxingiz yuqori bo'lishi mumkin: bozor narxi bilan solishtirib ko'ring.",
+  "noMarket": "Viloyatda shu mahsulotning boshqa e'lonlari hali kam, solishtirib bo'lmaydi."
+}

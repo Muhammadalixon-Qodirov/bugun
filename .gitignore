@@ -1,0 +1,55 @@
+# Secrets (any directory)
+.env
+.env.*
+*.env
+!.env.example
+
+tz.docx
+
+# Data, logs, exports
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.dump
+exports/
+
+# Backups (deploy/backup.sh) and restore drills
+backups/
+*.sql.gz
+bugun-*.tar.gz
+
+# End-to-end tests (Playwright) and CI scratch
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+frontend/e2e/.auth/
+.e2e/
+gitleaks-report.*
+
+# Go
+backend/bin/
+backend/tmp/
+backend/data/
+*.test
+*.out
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/next-env.d.ts
+*.tsbuildinfo
+
+# Python (eval scripts)
+__pycache__/
+.venv/
+
+# Build output
+dist/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,38 @@
+{
+  "language": "Язык",
+  "localeNames": {
+    "uz": "O'zbekcha",
+    "en": "English",
+    "ru": "Русский"
+  },
+  "som": "сум",
+  "perUnit": "сум/{unit}",
+  "cancel": "Отмена",
+  "save": "Сохранить",
+  "saved": "Сохранено",
+  "delete": "Удалить",
+  "clear": "Сбросить",
+  "clearAll": "Сбросить всё",
+  "close": "Закрыть",
+  "back": "Назад",
+  "previous": "Предыдущее",
+  "next": "Следующее",
+  "all": "Все",
+  "notFound": "Ничего не найдено",
+  "optional": "необязательно",
+  "wholesale": "Опт",
+  "retail": "Розница",
+  "wholesaleLower": "опт",
+  "retailLower": "розница",
+  "wholeCountry": "Весь Узбекистан",
+  "market": "Маркет",
+  "loading": "Загрузка…",
+  "saving": "Сохранение…",
+  "sections": "Разделы",
+  "theme": "Тема",
+  "themes": {
+    "light": "Светлая",
+    "dark": "Тёмная",
+    "system": "Системная"
+  }
+}

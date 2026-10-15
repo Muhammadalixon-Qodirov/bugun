@@ -1,0 +1,29 @@
+{
+  "title": "Automatic pricing",
+  "hint": "The price follows your province's market, demand and supply within your range.",
+  "switch": "Turn on automatic pricing",
+  "min": "Lowest price, UZS/{unit}",
+  "max": "Highest price, UZS/{unit}",
+  "current": "Current price: {price} UZS/{unit}. It must be inside the range.",
+  "goal": "Goal",
+  "warning": "The price moves at most {step}% a day and stays within your range. It never goes above the market's upper quartile (P75). The bot tells you about each change, and you can undo it.",
+  "offNote": "Off: the price changes only when you change it.",
+  "paused": "Paused until {time}. The price was set by hand or undone, so the system leaves it alone for {hours, plural, one {# hour} other {# hours}}.",
+  "savedOn": "Automatic pricing is on",
+  "savedOff": "Automatic pricing is off",
+  "history": {
+    "title": "Price history",
+    "hint": "Automatic changes, newest first. You can undo the latest one.",
+    "failed": "Couldn't load the history.",
+    "empty": "No automatic changes yet.",
+    "median": "Province median {price} UZS ({count, plural, one {# price} other {# prices}})",
+    "factors": "Reasons",
+    "undo": "Undo",
+    "reverted": "The previous price is back. Automatic pricing pauses for {hours, plural, one {# hour} other {# hours}}.",
+    "revertedLabel": "undone",
+    "revertedAt": "undone {time}",
+    "contrib": "Why it moved",
+    "contribHint": "Each reason's exact share (Shapley values): the parts add up to the total change.",
+    "total": "Total change"
+  }
+}

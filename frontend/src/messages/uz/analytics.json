@@ -1,0 +1,220 @@
+{
+  "metaTitle": "{name}: narx tahlili",
+  "metaDescription": "{name} narxi: grafik, mavsum, viloyatlar, prognoz va xarid bo'yicha maslahat.",
+  "tab": "Tahlil",
+  "eyebrow": "{category} · bozor tahlili",
+  "offersLink": "Takliflar",
+  "csv": "CSV yuklab olish",
+  "filters": {
+    "label": "Tahlil filtrlari",
+    "region": "Hudud",
+    "period": "Davr"
+  },
+  "quality": {
+    "live": "{count} ta jonli narx",
+    "deals": "{count} ta tasdiqlangan savdo",
+    "last": "oxirgi narx {when}",
+    "sources": "30 kunlik manbalar"
+  },
+  "advice": {
+    "title": "Xulosa",
+    "buyer": "Xaridorga",
+    "seller": "Sotuvchiga",
+    "disclaimer": "Bu maslahat, kafolat emas.",
+    "noReasons": "Hozircha aniq signal yo'q: narx odatdagidek.",
+    "pressure": "Talab va taklif",
+    "items": {
+      "trend_up": "Oxirgi 4 haftada narx oshmoqda: haftasiga taxminan {share}.",
+      "trend_down": "Oxirgi 4 haftada narx tushmoqda: haftasiga taxminan {share}.",
+      "season_dearer": "Odatda {month}da narx {fromMonth}dagidan {share} qimmat bo'ladi.",
+      "season_cheaper": "Odatda {month}da narx {fromMonth}dagidan {share} arzon bo'ladi.",
+      "surplus": "Hozir taklif odatdagidan ko'p: xarid uchun qulay payt.",
+      "shortage": "Hozir talab odatdagidan yuqori: narx yana oshishi mumkin.",
+      "below_year": "Narx yillik o'rtachadan {share} past.",
+      "above_year": "Narx yillik o'rtachadan {share} yuqori.",
+      "holiday_soon": "{title}ga {days} kun qoldi: odatda bu mahsulotga talab va narx oshadi.",
+      "holiday_now": "Hozir: {title} ({until} gacha), talab odatdagidan yuqori."
+    },
+    "reasons": "Sabablar"
+  },
+  "now": {
+    "median": "Hozirgi median · {scope}",
+    "range": "yarmi {from} – {to} oralig'ida",
+    "notEnough": "Hozir jonli narxlar 3 tadan kam: median tarix bo'yicha ko'rsatilmoqda.",
+    "changes": "O'zgarish",
+    "d1": "1 kun",
+    "d7": "7 kun",
+    "d30": "30 kun",
+    "y1": "1 yil",
+    "noChange": "—",
+    "trendWeekly": "{trend}: haftasiga {share}"
+  },
+  "chart": {
+    "title": "Narx tarixi",
+    "subtitle": "Median va o'rtadagi yarmi (p25–p75)",
+    "median": "Median",
+    "band": "o'rtadagi yarmi",
+    "forecast": "Prognoz",
+    "forecastRange": "prognoz oralig'i",
+    "events": "Voqealar",
+    "aria": "{name} narxi grafigi",
+    "empty": "Bu davr va hudud uchun narx tarixi yo'q.",
+    "forecastNote": "Taxmin, kafolat emas: o'tgan yilgi xatolarning 80% shu oraliqqa sig'gan.",
+    "forecastError": "1 hafta oldinga o'rtacha xato {share} ({weeks} hafta sinovi)",
+    "tableToggle": "Jadval",
+    "chartToggle": "Grafik",
+    "date": "Sana",
+    "offers": "Narxlar"
+  },
+  "records": {
+    "title": "Rekordlar",
+    "max": "Eng qimmat",
+    "min": "Eng arzon",
+    "byYear": "Yillar bo'yicha",
+    "year": "Yil",
+    "cause": "ehtimoliy sabab: {cause}"
+  },
+  "jumps": {
+    "title": "Keskin o'zgarishlar",
+    "subtitle": "Haftasiga 15% dan ko'p o'zgargan haftalar va o'sha paytdagi voqealar",
+    "week": "{date} haftasi",
+    "noCause": "Sabab qayd etilmagan",
+    "possible": "Ehtimoliy sabablar:",
+    "frost": "Sovuq: {temp}°C",
+    "heat": "Jazirama: {temp}°C",
+    "empty": "Bu davrda keskin o'zgarish bo'lmagan."
+  },
+  "regions": {
+    "title": "Viloyatlar bo'yicha",
+    "subtitle": "Median, arzonidan boshlab",
+    "vs": "{diff} tanlangan hududga nisbatan",
+    "prices": "{count} ta narx",
+    "districts": "Tumanlar",
+    "markets": "Bozorlar",
+    "empty": "Ma'lumot yetarli emas.",
+    "statsLink": "Viloyat statistikasi"
+  },
+  "arbitrage": {
+    "title": "Olib borib sotish",
+    "subtitle": "Qayerda arzon olib, qayerda qimmat sotish mumkin — yo'l xarajati hisobga olingan",
+    "route": "{buy} → {sell}",
+    "detail": "{buyPrice} → {sellPrice}, yo'l {transport} ({km} km)",
+    "net": "sof {net} so'm/{unit}",
+    "rate": "Yo'l narxi, 100 km uchun so'm/{unit}",
+    "approx": "Masofa taxminiy.",
+    "empty": "Foydali yo'nalish topilmadi."
+  },
+  "season": {
+    "title": "Mavsum",
+    "subtitle": "Odatda har oyda narx yil darajasiga nisbatan",
+    "cheapest": "Eng arzon oy: {month}",
+    "dearest": "Eng qimmat oy: {month}",
+    "aria": "Oylar bo'yicha narx indeksi",
+    "vsUsual": "odatdagidan {share}",
+    "weekdays": "Qaysi kuni arzon?",
+    "weekdaysSub": "Oxirgi {weeks} hafta bo'yicha",
+    "noWeekday": "Hafta kunlari orasida farq yo'q.",
+    "cheapestDay": "Eng arzon kun: {day}",
+    "weekdayAria": "Hafta kunlari bo'yicha narx",
+    "dearestDay": "Eng qimmat kun: {day}",
+    "samples": "{count} oylik ma'lumot asosida"
+  },
+  "supply": {
+    "title": "Taklif",
+    "sellers": "{count} sotuvchi",
+    "sellersChange": "{share} haftada",
+    "listings": "{count} ta e'lon",
+    "stock": "jami zaxira {amount} {unit} ({count} ta e'lon bo'yicha)",
+    "retail": "Chakanada {share} qimmat",
+    "bargain": "Savdolashuvda o'rtacha {share} arzonga kelishiladi ({count} ta savdo)"
+  },
+  "reasons": {
+    "title": "Sotuvchilar nima deydi?",
+    "subtitle": "Narxni o'zgartirganda aytilgan sabablar, 30 kun",
+    "up": "Narx oshishi",
+    "down": "Narx tushishi"
+  },
+  "weather": {
+    "title": "Ob-havo",
+    "subtitle": "{scope}: kunlik eng past va eng yuqori harorat",
+    "countryAverage": "O'zbekiston bo'yicha o'rtacha",
+    "tmax": "Eng yuqori",
+    "tmin": "Eng past",
+    "precip": "Yog'in",
+    "extremes": "Keskin kunlar",
+    "aria": "Harorat grafigi",
+    "precipTotal": "Davrdagi yog'in: {mm} mm · yog'inli kunlar: {days}"
+  },
+  "fx": {
+    "title": "Valyuta kursi",
+    "subtitle": "Markaziy bank, davr bo'yicha o'zgarish",
+    "usd": "1 $ = {rate} so'm",
+    "corr": "Bu mahsulot narxi dollar bilan birga o'zgaradi (r = {r}). Bu sabab emas, faqat birga o'zgarish.",
+    "aria": "Dollar kursi grafigi"
+  },
+  "links": {
+    "title": "Davom etish",
+    "compare": "Boshqa mahsulot bilan solishtirish",
+    "map": "Talab-taklif xaritasi",
+    "heatmap": "Viloyatlar bo'yicha narxlar",
+    "ask": "Savol bering",
+    "askQuestion": "{product} narxi qanday o'zgardi?"
+  },
+  "holidays": {
+    "navruz": "Navro'z",
+    "navruzDemand": "Navro'z oldidan talab oshdi",
+    "eidAdha": "Qurbon hayiti",
+    "eidFitr": "Ramazon hayiti",
+    "eidFitrDemand": "Ramazon hayiti oldidan talab",
+    "ramadan": "Ramazon oyi",
+    "weddings": "To'y mavsumi",
+    "newYear": "Yangi yil"
+  },
+  "forecast": {
+    "title": "Prognoz qanday tuzildi",
+    "method": {
+      "naive": "O'zgarmas narx",
+      "last_year": "O'tgan yilgi o'zgarish",
+      "season_trend": "Mavsum va trend",
+      "ml": "ML model (gradient boosting)"
+    },
+    "driver": {
+      "season": "Mavsum",
+      "trend": "So'nggi trend",
+      "last_year": "O'tgan yil",
+      "history": "Narx tarixi",
+      "holiday": "Bayramlar",
+      "weather": "Ob-havo",
+      "fx": "Dollar kursi",
+      "demand_supply": "Talab va taklif"
+    },
+    "won": "O'tgan yil sinovida eng aniq usul — <b>{method}</b>: o'rtacha xato {error}, o'zgarmas narxda esa {naive}. Bu {skill} aniqroq.",
+    "naiveWon": "O'tgan yil sinovida narxni <b>o'zgarmas</b> deb olish eng aniq chiqdi (o'rtacha xato {error}); boshqa usullar undan yaxshiroq bo'lmadi.",
+    "errors": "Usullar xatosi",
+    "errorsHint": "1–4 hafta oldinga o'rtacha xato, {weeks} hafta sinovida. Qanchalik kam bo'lsa, shuncha yaxshi.",
+    "chosen": "tanlandi",
+    "weeks": "Har haftaga nima ta'sir qiladi",
+    "weeksHint": "O'tgan haftaning o'rtacha narxi ({price}) dan o'zgarish, har omilning aniq ulushi (Shapley) bilan. Qismlar yig'indisi jami o'zgarishga teng.",
+    "total": "Jami",
+    "flat": "O'zgarish kutilmaydi: o'tgan haftaning narxi saqlanadi.",
+    "seasonNote": "Mavsum indeksi butun tarixdan tuzilgani uchun o'tmishdagi aniqlik biroz yaxshiroq ko'rinishi mumkin.",
+    "aria": "{week}: omillar ulushi",
+    "mlNote": "Bu prognozni ML modeli berdi: u har kecha 3 yillik haftalik narxlar, mavsum, bayramlar, ob-havo, dollar kursi va talab-taklif asosida qayta o'qitiladi va boshqa usullar bilan bir xil o'tgan haftalarda solishtirilib, eng kam xato bergani uchun tanlandi.",
+    "mlBadge": "ML"
+  },
+  "anomalies": {
+    "mark": "{region}: g'ayrioddiy kun — {value}, kutilgan {reference}",
+    "excluded": "grafik va hisobdan chiqarilgan",
+    "checking": "tekshirilmoqda, grafikda qoldirilgan",
+    "layer": {
+      "temporal": "o'zining so'nggi 4 haftasidan juda farq qiladi",
+      "cross_section": "boshqa viloyatlarda bunday sakrash yo'q"
+    },
+    "title": "Bu davrda {count} ta g'ayrioddiy kun",
+    "note": "Viloyat medianasi kutilganidan keskin farq qilgan kunlar grafik ostida belgilangan. ✕ — tasdiqlangan, grafik va hisoblardan chiqarilgan kun; ? — oxirgi 4 kun, haqiqiy yangilik yashirinmasligi uchun grafikda qoldirilib, faqat belgilanadi.",
+    "value": "{value}, kutilgan {reference}",
+    "legendExcluded": "Grafikdan chiqarilgan kun",
+    "legendChecking": "Tekshirilayotgan kun",
+    "leftOut": "{count} ta shubhali kun hisobga olinmadi."
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "AI assistant — chat about market prices",
+    "description": "Ask in plain words about prices, the cost of a recipe or basket, forecasts and the cheapest offers. Every number comes from the platform's data."
+  },
+  "eyebrow": "AI assistant",
+  "title": "Your market price assistant",
+  "description": "Write in plain words and follow up: “And in Andijan?”. Every number in an answer comes from prices on the platform.",
+  "navLink": "Analyst",
+  "ask": "Ask a question",
+  "label": "Your question",
+  "submit": "Ask",
+  "examplesTitle": "Examples",
+  "examples": {
+    "price": "How much are onions in Namangan?",
+    "basket": "How much does plov for 10 people cost?",
+    "forecast": "When will potatoes get cheaper?",
+    "movers": "What got more expensive this week?",
+    "cheapest": "Which region has the cheapest meat?",
+    "help": "How do I post a price?"
+  },
+  "status": {
+    "insufficient_data": "Not enough data",
+    "insufficient_dataHint": "There are too few prices for this question (fewer than 3). We don't guess — try another area or period.",
+    "no_product": "Product not recognised",
+    "no_productHint": "Name a product from the catalog in your question, for example: onion, potato, apple."
+  },
+  "sourcesTitle": "Sources",
+  "source": {
+    "observations": "{count, plural, one {# observation} other {# observations}}",
+    "enough": "enough",
+    "notEnough": "not enough data",
+    "period": "Period: {period}",
+    "tools": {
+      "price_stats": "Current price",
+      "price_trend": "Price history",
+      "cheapest_offers": "Cheapest offers",
+      "compare_regions": "Regions compared",
+      "pressure_index": "Demand and supply",
+      "forecast": "Forecast",
+      "anomalies": "Suspicious days",
+      "top_demand": "Most requested",
+      "find_product": "Finding the product",
+      "find_region": "Finding the area",
+      "advice": "Advice",
+      "seasonality": "Seasonality",
+      "weekday_prices": "Days of the week",
+      "price_reasons": "Price reasons",
+      "district_prices": "Districts and markets",
+      "wholesale_retail": "Wholesale and retail",
+      "arbitrage": "Arbitrage",
+      "region_overview": "Area overview",
+      "weekly_movers": "Weekly changes",
+      "compare_products": "Products compared",
+      "basket_cost": "Basket and recipe cost",
+      "exchange_rate": "Exchange rate",
+      "weather": "Weather",
+      "market_events": "Market events",
+      "seller_info": "Seller",
+      "platform_help": "Help",
+      "create_request": "Request proposal",
+      "watch_price": "Watch proposal"
+    },
+    "errors": {
+      "unknown_product": "product not found",
+      "unknown_region": "area not found",
+      "bad_arguments": "invalid request"
+    },
+    "params": {
+      "product": "Product",
+      "region": "Area",
+      "trade": "Trade"
+    },
+    "basedOn": "{count, plural, one {based on # price} other {based on # prices}}"
+  },
+  "columns": {
+    "area": "Area",
+    "region": "Area",
+    "median": "Median",
+    "p25": "Lower quartile",
+    "p75": "Upper quartile",
+    "min": "Lowest",
+    "max": "Highest",
+    "low": "Low bound",
+    "high": "High bound",
+    "observations": "Observations",
+    "from": "From",
+    "to": "To",
+    "week": "Week",
+    "date": "Date",
+    "demo_share": "Demo share",
+    "seller": "Seller",
+    "place": "Place",
+    "price": "Price",
+    "unit": "Unit",
+    "min_order": "Minimum order",
+    "stock": "Stock",
+    "updated": "Updated",
+    "demand_now": "Demand (now)",
+    "demand_usual": "Demand (usual)",
+    "sellers_now": "Sellers (now)",
+    "sellers_usual": "Sellers (usual)",
+    "index": "Index",
+    "zone": "Zone",
+    "value": "Value",
+    "expected": "Expected",
+    "layer": "Layer",
+    "product": "Product",
+    "score": "Score",
+    "usual": "Usual",
+    "quantity": "Quantity",
+    "cost": "Cost"
+  },
+  "failed": "Couldn't get an answer. Please try again shortly.",
+  "rateLimited": "Too many questions. Please try again in a minute.",
+  "disclaimer": "The answer is based on the platform's listings and price history; it is not financial advice.",
+  "tableToggle": "Table · {count, plural, one {# row} other {# rows}}",
+  "chat": {
+    "new": "New chat",
+    "retry": "Send again",
+    "placeholder": "Type your question…",
+    "typing": "The assistant is typing…",
+    "welcomeTitle": "What would you like to know?",
+    "welcomeText": "Prices, where it's cheaper, the cost of a recipe or basket, forecasts — ask in plain words. It remembers the previous question when you follow up.",
+    "forwarded": "We've passed this question to our team and will use it to improve the assistant.",
+    "busy": "AI is busy right now; a simpler answer was given.",
+    "optionsLabel": "Answer options",
+    "offTitle": "The assistant is not available yet",
+    "offText": "Please try again later. You can see prices in the catalog and on the statistics pages.",
+    "invalid": "A message must be 1 to {max} characters.",
+    "shortcut": "Enter to send, Shift + Enter for a new line"
+  },
+  "actions": {
+    "product": "Product",
+    "area": "Area",
+    "trade": "Trade",
+    "quantity": "Quantity",
+    "days": "Answer within",
+    "daysValue": "{count, plural, one {# day} other {# days}}",
+    "cancel": "Cancel",
+    "signIn": "Sign in",
+    "signInFirst": "Sign in with Telegram first. You'll come back here afterwards.",
+    "watchSaved": "Watch added. The bot will tell you when the price drops.",
+    "watch_price": {
+      "title": "Watch the price",
+      "description": "We'll message you through the Telegram bot when the price drops or a cheaper offer appears.",
+      "confirm": "Start watching"
+    },
+    "create_request": {
+      "title": "Send a price request",
+      "description": "The request form opens with these values filled in. Check them and send it yourself.",
+      "confirm": "Open the form"
+    }
+  },
+  "widget": {
+    "title": "AI assistant",
+    "subtitle": "Ask about market prices",
+    "launcher": "Ask",
+    "open": "Open the AI assistant",
+    "close": "Close",
+    "expand": "Open full page",
+    "unread": "New reply"
+  },
+  "page": {
+    "welcomeAside": "Pick an example on the right or type your question below.",
+    "skillsTitle": "What you can ask",
+    "skills": {
+      "prices": {
+        "title": "Today's price",
+        "text": "By province, district and market"
+      },
+      "cheapest": {
+        "title": "Where it's cheaper",
+        "text": "Provinces and offers compared"
+      },
+      "basket": {
+        "title": "Basket and recipes",
+        "text": "Say, what plov for 10 people costs"
+      },
+      "forecast": {
+        "title": "Forecast and season",
+        "text": "When a price is likely to fall or rise"
+      },
+      "actions": {
+        "title": "Watches and requests",
+        "text": "Prepared for you, you confirm"
+      }
+    },
+    "examplesTitle": "Example questions",
+    "dataNote": "Numbers come from listings and price history on the platform. With too few prices the assistant doesn't guess. For the demo the database also holds sample prices."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "metaFallback": "Listing",
+  "metaBelow": "{percent}% below market",
+  "breadcrumb": "Breadcrumb",
+  "views": "{count, plural, one {# view} other {# views}}",
+  "perUnitSpaced": "UZS / {unit}",
+  "atMarket": "At market price",
+  "belowMarket": "{percent}% below market",
+  "aboveMarket": "{percent}% above market",
+  "average": "Average <b>{price}</b> · {scope}",
+  "basedOn": "{count, plural, one {Based on # seller's price} other {Based on # sellers' prices}}",
+  "collecting": "Collecting data for the market price ({count, plural, one {# price} other {# prices}} so far).",
+  "sellerSince": "Since {date} · {count, plural, one {# listing} other {# listings}}",
+  "safety": "Bugun is not a party to the deal: payment and delivery are agreed with the seller. Don't pay in advance.",
+  "details": "Details",
+  "description": "Description",
+  "specs": {
+    "trade": "Trade type",
+    "minOrder": "Minimum order",
+    "stock": "In stock",
+    "region": "Location",
+    "market": "Market",
+    "updated": "Updated",
+    "validUntil": "Valid"
+  },
+  "otherSellers": "Other sellers",
+  "otherSellersHint": "Same product, cheapest first",
+  "fromSeller": "More from {seller}",
+  "barMedian": "Average price",
+  "barThis": "This listing",
+  "all": "See all",
+  "rating": {
+    "summary": "{average} · {count, plural, one {# rating} other {# ratings}}",
+    "stars": "{stars} out of 5",
+    "title": "Buyer ratings",
+    "note": "Only after confirmed deals"
+  },
+  "tools": {
+    "compare": "Compare prices",
+    "compareHint": "All sellers, cheapest first",
+    "analysis": "Analysis and forecast",
+    "analysisHint": "Price history, season, 4 weeks ahead"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "form": {
+    "roles": {
+      "entrepreneur": "Sell and buy: post prices and listings, and send requests when you need to buy.",
+      "market_admin": "Watch market prices and get the weekly report for your province. No selling or requests."
+    },
+    "errors": {
+      "role": "Choose a role.",
+      "region": "Choose a location.",
+      "publicNameMax": "At most {max} characters.",
+      "consent": "Your consent is needed to continue.",
+      "market": "Choose a market."
+    },
+    "saved": "Profile saved",
+    "steps": {
+      "role": "Who are you?",
+      "roleHint": "We'll show you the pages you need based on this. You can change it later in your profile.",
+      "place": "Where do you work?",
+      "placeHint": "Prices and offers are shown for this area.",
+      "sell": "What do you trade?",
+      "sellHint": "Optional. Categories and a shop name help buyers find you."
+    },
+    "roleGroup": "Role",
+    "province": "Province",
+    "district": "District or city",
+    "choose": "Choose",
+    "chooseProvinceFirst": "Choose a province first",
+    "chooseDistrictFirst": "Choose a location first",
+    "market": "Market",
+    "marketOptional": "Market (optional)",
+    "noMarkets": "No markets have been added in this area yet.",
+    "categories": "Categories (optional)",
+    "publicName": "Shop or display name (optional)",
+    "publicNamePlaceholder": "For example: Test Vegetables",
+    "publicNameHint": "Buyers will see this name. Your phone number is never shown to anyone.",
+    "consent": "I agree that my name, phone and location are processed only to run the platform. I can delete them in my profile at any time.",
+    "stepsLabel": "Steps",
+    "phoneNote": "Your phone number is stored encrypted and is shown to buyers only if you allow it.",
+    "continue": "Continue",
+    "consentNeeded": "Tick the consent box to continue.",
+    "sections": {
+      "role": "Role",
+      "roleHint": "Entrepreneur or market administration",
+      "place": "Location",
+      "placeHint": "Prices are shown for this area",
+      "sell": "Trading",
+      "sellHint": "Categories and shop name, both optional"
+    },
+    "roleNotes": {
+      "entrepreneur": "Active right away",
+      "market_admin": "Approved by an admin"
+    },
+    "categoriesHint": "If you pick some, buyers' requests in these categories reach you sooner. You can change them later in your profile."
+  },
+  "page": {
+    "metaTitle": "Profile",
+    "approved": "Approved",
+    "pendingApproval": "Awaiting admin approval",
+    "myProducts": "My products",
+    "newListing": "New listing",
+    "stats": {
+      "live": "Active listings",
+      "liveHint": "{total} in total",
+      "views": "Views",
+      "viewsHint": "across all listings",
+      "attention": "Need renewal",
+      "attentionHint": "expiring or expired",
+      "review": "Under review",
+      "reviewHint": "when the price differs sharply from the market"
+    },
+    "nav": {
+      "details": "My details",
+      "contact": "Contact",
+      "bot": "Telegram bot",
+      "account": "Account"
+    },
+    "details": "My details",
+    "detailsHint": "Your role, location and trading categories",
+    "saveChanges": "Save changes",
+    "contact": "Contact",
+    "contactHint": "How buyers can reach you. Keep at least one turned on.",
+    "bot": "Telegram bot",
+    "botHint": "Send a price in one message and get notified about requests right away",
+    "deleteTitle": "Delete account",
+    "deleteHint": "All your data will be removed from the platform",
+    "myStore": "My store"
+  },
+  "contact": {
+    "telegram": "Message on Telegram",
+    "telegramVia": "Opens a chat with @{username}",
+    "noUsername": "Your Telegram account has no username",
+    "phone": "Phone number",
+    "phoneHint": "Only a signed-in buyer sees it, after tapping the button",
+    "noPhone": "We don't have your number"
+  },
+  "bot": {
+    "connected": "Bot connected",
+    "disconnected": "Bot disconnected",
+    "name": "Telegram bot",
+    "on": "Connected",
+    "off": "Disconnected",
+    "text": "Since you signed in with Telegram, the bot is linked to your profile automatically. If you disconnect it, the bot won't message you.",
+    "open": "Open the bot",
+    "disconnect": "Disconnect the bot",
+    "reconnect": "Reconnect the bot",
+    "scanTitle": "Scan with your phone camera",
+    "scan": "scan"
+  },
+  "delete": {
+    "deleted": "Your data has been deleted",
+    "confirm": "Are you sure? This can't be undone.",
+    "warning": "Your profile, phone number, listings and prices will be deleted for good. This can't be undone.",
+    "yes": "Yes, delete it",
+    "button": "Delete account"
+  }
+}

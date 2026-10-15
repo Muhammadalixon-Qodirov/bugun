@@ -1,0 +1,878 @@
+[
+ {
+  "id": "p01",
+  "text": "kartoshka 4500, 2 tonna",
+  "items": [
+   {
+    "product": "kartoshka",
+    "price": 4500,
+    "trade": "chakana",
+    "qty": 2000
+   }
+  ],
+  "note": "spec example"
+ },
+ {
+  "id": "p02",
+  "text": "piyoz kilosi 3800",
+  "items": [
+   {
+    "product": "piyoz",
+    "price": 3800,
+    "trade": "chakana"
+   }
+  ],
+  "note": "per-kilo possessive"
+ },
+ {
+  "id": "p03",
+  "text": "olma yashigi 200 ming, optom",
+  "items": [
+   {
+    "product": "olma",
+    "price": 11111,
+    "trade": "ulgurji"
+   }
+  ],
+  "note": "box of 18 kg, wholesale"
+ },
+ {
+  "id": "p04",
+  "text": "Kartoshka kilosi to'rt ming besh yuz",
+  "items": [
+   {
+    "product": "kartoshka",
+    "price": 4500,
+    "trade": "chakana"
+   }
+  ],
+  "note": "spelled out"
+ },
+ {
+  "id": "p05",
+  "text": "piyoz to'rt yarim ming",
+  "items": [
+   {
+    "product": "piyoz",
+    "price": 4500,
+    "trade": "chakana"
+   }
+  ],
+  "note": "to'rt yarim ming"
+ },
+ {
+  "id": "p06",
+  "text": "sabzi 4,5 ming so'm",
+  "items": [
+   {
+    "product": "sabzi",
+    "price": 4500,
+    "trade": "chakana"
+   }
+  ],
+  "note": "4,5 ming"
+ },
+ {
+  "id": "p07",
+  "text": "pomidor 8.5",
+  "items": [
+   {
+    "product": "pomidor",
+    "price": 8500,
+    "trade": "chakana"
+   }
+  ],
+  "note": "ambiguous 8.5 = 8 500"
+ },
+ {
+  "id": "p08",
+  "text": "bodring 7 000 so'm",
+  "items": [
+   {
+    "product": "bodring",
+    "price": 7000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "space thousands"
+ },
+ {
+  "id": "p09",
+  "text": "kartoshka qopi 200 ming",
+  "items": [
+   {
+    "product": "kartoshka",
+    "price": 4000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "bag of 50 kg"
+ },
+ {
+  "id": "p10",
+  "text": "piyoz qopi 150 ming, 20 qop bor, optom",
+  "items": [
+   {
+    "product": "piyoz",
+    "price": 3750,
+    "trade": "ulgurji",
+    "qty": 800
+   }
+  ],
+  "note": "bag of 40 kg with quantity"
+ },
+ {
+  "id": "p11",
+  "text": "pomidor 120000/yashik",
+  "items": [
+   {
+    "product": "pomidor",
+    "price": 6000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "slash unit, box of 20 kg"
+ },
+ {
+  "id": "p12",
+  "text": "Картошка 4500 сўм",
+  "items": [
+   {
+    "product": "kartoshka",
+    "price": 4500,
+    "trade": "chakana"
+   }
+  ],
+  "note": "Cyrillic Uzbek"
+ },
+ {
+  "id": "p13",
+  "text": "Помидор 9000 сум, оптом",
+  "items": [
+   {
+    "product": "pomidor",
+    "price": 9000,
+    "trade": "ulgurji"
+   }
+  ],
+  "note": "Russian wholesale"
+ },
+ {
+  "id": "p14",
+  "text": "лук 3500",
+  "items": [
+   {
+    "product": "piyoz",
+    "price": 3500,
+    "trade": "chakana"
+   }
+  ],
+  "note": "Russian synonym"
+ },
+ {
+  "id": "p15",
+  "text": "морковь 5000 сум",
+  "items": [
+   {
+    "product": "sabzi",
+    "price": 5000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "Russian synonym"
+ },
+ {
+  "id": "p16",
+  "text": "mol go'shti 115 ming",
+  "items": [
+   {
+    "product": "mol-goshti",
+    "price": 115000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "two-word product"
+ },
+ {
+  "id": "p17",
+  "text": "Qo'y go'shti kilosi 130 000",
+  "items": [
+   {
+    "product": "qoy-goshti",
+    "price": 130000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "apostrophes"
+ },
+ {
+  "id": "p18",
+  "text": "Qoʻy goʻshti 128 ming",
+  "items": [
+   {
+    "product": "qoy-goshti",
+    "price": 128000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "modifier letter apostrophes"
+ },
+ {
+  "id": "p19",
+  "text": "tuxum donasi 1350",
+  "items": [
+   {
+    "product": "tuxum",
+    "price": 1350,
+    "trade": "chakana"
+   }
+  ],
+  "note": "per piece"
+ },
+ {
+  "id": "p20",
+  "text": "tuxum karobkasi 450 ming",
+  "items": [
+   {
+    "product": "tuxum",
+    "price": 1250,
+    "trade": "chakana"
+   }
+  ],
+  "note": "box of 360"
+ },
+ {
+  "id": "p21",
+  "text": "tuxum lotogi 39 ming",
+  "items": [
+   {
+    "product": "tuxum",
+    "price": 1300,
+    "trade": "chakana"
+   }
+  ],
+  "note": "tray of 30"
+ },
+ {
+  "id": "p22",
+  "text": "guruch devzira 28 ming",
+  "items": [
+   {
+    "product": "guruch",
+    "price": 28000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "variety after product"
+ },
+ {
+  "id": "p23",
+  "text": "un qopi 380 ming optom",
+  "items": [
+   {
+    "product": "un",
+    "price": 7600,
+    "trade": "ulgurji"
+   }
+  ],
+  "note": "flour bag 50 kg"
+ },
+ {
+  "id": "p24",
+  "text": "shakar 14500",
+  "items": [
+   {
+    "product": "shakar",
+    "price": 14500,
+    "trade": "chakana"
+   }
+  ],
+  "note": "plain"
+ },
+ {
+  "id": "p25",
+  "text": "paxta yog'i litri 22 ming",
+  "items": [
+   {
+    "product": "paxta-yogi",
+    "price": 22000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "per litre"
+ },
+ {
+  "id": "p26",
+  "text": "sut 9000",
+  "items": [
+   {
+    "product": "sut",
+    "price": 9000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "plain litre"
+ },
+ {
+  "id": "p27",
+  "text": "sement qopi 45 ming, 10 tonna bor",
+  "items": [
+   {
+    "product": "sement",
+    "price": 900,
+    "trade": "chakana",
+    "qty": 10000
+   }
+  ],
+  "note": "cement bag with tonnes"
+ },
+ {
+  "id": "p28",
+  "text": "g'isht donasi 1200",
+  "items": [
+   {
+    "product": "gisht",
+    "price": 1200,
+    "trade": "chakana"
+   }
+  ],
+  "note": "brick per piece"
+ },
+ {
+  "id": "p29",
+  "text": "armatura 9800 so'm/kg",
+  "items": [
+   {
+    "product": "armatura",
+    "price": 9800,
+    "trade": "chakana"
+   }
+  ],
+  "note": "so'm/kg"
+ },
+ {
+  "id": "p30",
+  "text": "uzum 12000, olma 9000, nok 15000",
+  "items": [
+   {
+    "product": "uzum",
+    "price": 12000,
+    "trade": "chakana"
+   },
+   {
+    "product": "olma",
+    "price": 9000,
+    "trade": "chakana"
+   },
+   {
+    "product": "nok",
+    "price": 15000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "three products one line"
+ },
+ {
+  "id": "p31",
+  "text": "kartoshka 4500\npiyoz 3800 1 tonna\nsabzi 5200",
+  "items": [
+   {
+    "product": "kartoshka",
+    "price": 4500,
+    "trade": "chakana"
+   },
+   {
+    "product": "piyoz",
+    "price": 3800,
+    "trade": "chakana",
+    "qty": 1000
+   },
+   {
+    "product": "sabzi",
+    "price": 5200,
+    "trade": "chakana"
+   }
+  ],
+  "note": "three lines"
+ },
+ {
+  "id": "p32",
+  "text": "2 tonna kartoshka 4200 dan, optom",
+  "items": [
+   {
+    "product": "kartoshka",
+    "price": 4200,
+    "trade": "ulgurji",
+    "qty": 2000
+   }
+  ],
+  "note": "quantity first"
+ },
+ {
+  "id": "p33",
+  "text": "optom narxda pomidor 7500",
+  "items": [
+   {
+    "product": "pomidor",
+    "price": 7500,
+    "trade": "ulgurji"
+   }
+  ],
+  "note": "optom first"
+ },
+ {
+  "id": "p34",
+  "text": "ulgurji: bodring 6500, pomidor 8000",
+  "items": [
+   {
+    "product": "bodring",
+    "price": 6500,
+    "trade": "ulgurji"
+   },
+   {
+    "product": "pomidor",
+    "price": 8000,
+    "trade": "ulgurji"
+   }
+  ],
+  "note": "ulgurji header"
+ },
+ {
+  "id": "p35",
+  "text": "kartoshkani 4300 dan beraman",
+  "items": [
+   {
+    "product": "kartoshka",
+    "price": 4300,
+    "trade": "chakana"
+   }
+  ],
+  "note": "case ending"
+ },
+ {
+  "id": "p36",
+  "text": "piyozdan 3 tonna bor, kilosi 3200",
+  "items": [
+   {
+    "product": "piyoz",
+    "price": 3200,
+    "trade": "chakana",
+    "qty": 3000
+   }
+  ],
+  "note": "quantity before price"
+ },
+ {
+  "id": "p37",
+  "text": "tarvuz donasi 25 ming",
+  "items": [
+   {
+    "product": "tarvuz",
+    "price": 3125,
+    "trade": "chakana"
+   }
+  ],
+  "note": "watermelon piece = 8 kg"
+ },
+ {
+  "id": "p38",
+  "text": "qovun 20 ming dona",
+  "items": [
+   {
+    "product": "qovun",
+    "price": 5000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "price per piece after the number"
+ },
+ {
+  "id": "p39",
+  "text": "gilos 35 000",
+  "items": [
+   {
+    "product": "gilos",
+    "price": 35000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "plain"
+ },
+ {
+  "id": "p40",
+  "text": "O'rik yashigi 150 ming",
+  "items": [
+   {
+    "product": "orik",
+    "price": 15000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "box of 10 kg"
+ },
+ {
+  "id": "p41",
+  "text": "ўрик 16 минг",
+  "items": [
+   {
+    "product": "orik",
+    "price": 16000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "Cyrillic ming"
+ },
+ {
+  "id": "p42",
+  "text": "shaftoli 18.000",
+  "items": [
+   {
+    "product": "shaftoli",
+    "price": 18000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "dot as thousands"
+ },
+ {
+  "id": "p43",
+  "text": "anor 22,000 so'm",
+  "items": [
+   {
+    "product": "anor",
+    "price": 22000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "comma as thousands"
+ },
+ {
+  "id": "p44",
+  "text": "limon 30 ming so'mdan, 500 kg",
+  "items": [
+   {
+    "product": "limon",
+    "price": 30000,
+    "trade": "chakana",
+    "qty": 500
+   }
+  ],
+  "note": "so'mdan with quantity"
+ },
+ {
+  "id": "p45",
+  "text": "kartoshka 4500 kg",
+  "items": [
+   {
+    "product": "kartoshka",
+    "price": 4500,
+    "trade": "chakana"
+   }
+  ],
+  "note": "number with unit is a price"
+ },
+ {
+  "id": "p46",
+  "text": "piyoz 3,8",
+  "items": [
+   {
+    "product": "piyoz",
+    "price": 3800,
+    "trade": "chakana"
+   }
+  ],
+  "note": "3,8 = 3 800"
+ },
+ {
+  "id": "p47",
+  "text": "sarimsoq kilosi o'n besh ming",
+  "items": [
+   {
+    "product": "sarimsoq",
+    "price": 15000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "o'n besh ming"
+ },
+ {
+  "id": "p48",
+  "text": "karam yigirma besh yuz",
+  "items": [
+   {
+    "product": "karam",
+    "price": 2500,
+    "trade": "chakana"
+   }
+  ],
+  "note": "yigirma besh yuz = 2 500"
+ },
+ {
+  "id": "p49",
+  "text": "bulg'or qalampiri 12 ming",
+  "items": [
+   {
+    "product": "bulgor",
+    "price": 12000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "two-word name"
+ },
+ {
+  "id": "p50",
+  "text": "achchiq qalampir 25000",
+  "items": [
+   {
+    "product": "achchiq-qalampir",
+    "price": 25000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "not bulg'or qalampir"
+ },
+ {
+  "id": "p51",
+  "text": "ko'k piyoz bog'i 3000",
+  "items": [],
+  "note": "bundle size unknown: ask the seller"
+ },
+ {
+  "id": "p52",
+  "text": "piyoz yashigi 100 ming",
+  "items": [],
+  "note": "no box size for onions: ask the seller"
+ },
+ {
+  "id": "p53",
+  "text": "kartoshka bor, narxi kelishiladi",
+  "items": [],
+  "note": "no price"
+ },
+ {
+  "id": "p54",
+  "text": "Assalomu alaykum, ertaga bozorga chiqamiz",
+  "items": [],
+  "note": "no product"
+ },
+ {
+  "id": "p55",
+  "text": "kartoshka 900000000",
+  "items": [],
+  "note": "absurd price"
+ },
+ {
+  "id": "p56",
+  "text": "Guruch lazer 1-sort 26 500",
+  "items": [
+   {
+    "product": "guruch",
+    "price": 26500,
+    "trade": "chakana"
+   }
+  ],
+  "note": "grade number before the price"
+ },
+ {
+  "id": "p57",
+  "text": "Pomidor (qizil) 1 kg — 9 ming so'm",
+  "items": [
+   {
+    "product": "pomidor",
+    "price": 9000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "1 kg is the unit, not a quantity"
+ },
+ {
+  "id": "p58",
+  "text": "bodring 6 500 dan 300 kg gacha",
+  "items": [
+   {
+    "product": "bodring",
+    "price": 6500,
+    "trade": "chakana",
+    "qty": 300
+   }
+  ],
+  "note": "dan ... gacha"
+ },
+ {
+  "id": "p59",
+  "text": "Olma Golden 11000 optom 5 tonna",
+  "items": [
+   {
+    "product": "olma",
+    "price": 11000,
+    "trade": "ulgurji",
+    "qty": 5000
+   }
+  ],
+  "note": "variety, wholesale, tonnes"
+ },
+ {
+  "id": "p60",
+  "text": "kartofel 4200",
+  "items": [
+   {
+    "product": "kartoshka",
+    "price": 4200,
+    "trade": "chakana"
+   }
+  ],
+  "note": "synonym"
+ },
+ {
+  "id": "p61",
+  "text": "tomat 8800",
+  "items": [
+   {
+    "product": "pomidor",
+    "price": 8800,
+    "trade": "chakana"
+   }
+  ],
+  "note": "synonym"
+ },
+ {
+  "id": "p62",
+  "text": "pamidor 9000",
+  "items": [
+   {
+    "product": "pomidor",
+    "price": 9000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "common misspelling"
+ },
+ {
+  "id": "p63",
+  "text": "kartop 4 ming",
+  "items": [
+   {
+    "product": "kartoshka",
+    "price": 4000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "dialect"
+ },
+ {
+  "id": "p64",
+  "text": "Uzum yashigi 120 000, 50 yashik bor",
+  "items": [
+   {
+    "product": "uzum",
+    "price": 12000,
+    "trade": "chakana",
+    "qty": 500
+   }
+  ],
+  "note": "boxes as quantity"
+ },
+ {
+  "id": "p65",
+  "text": "Tuxum 1 300 so'm donasi",
+  "items": [
+   {
+    "product": "tuxum",
+    "price": 1300,
+    "trade": "chakana"
+   }
+  ],
+  "note": "donasi after currency"
+ },
+ {
+  "id": "p66",
+  "text": "yog' litri 21 000",
+  "items": [
+   {
+    "product": "paxta-yogi",
+    "price": 21000,
+    "trade": "chakana"
+   }
+  ],
+  "note": "yog' = cotton oil"
+ },
+ {
+  "id": "p67",
+  "text": "piyoz 3800 so'm/kg, 2 t",
+  "items": [
+   {
+    "product": "piyoz",
+    "price": 3800,
+    "trade": "chakana",
+    "qty": 2000
+   }
+  ],
+  "note": "t = tonne"
+ },
+ {
+  "id": "p68",
+  "text": "Kartoshka narxi 4.200",
+  "items": [
+   {
+    "product": "kartoshka",
+    "price": 4200,
+    "trade": "chakana"
+   }
+  ],
+  "note": "4.200 = 4 200"
+ },
+ {
+  "id": "p69",
+  "text": "Мука 1 мешок 380000",
+  "items": [
+   {
+    "product": "un",
+    "price": 7600,
+    "trade": "chakana"
+   }
+  ],
+  "note": "price per bag, Russian"
+ },
+ {
+  "id": "p70",
+  "text": "Сахар 14 500 сум за кг",
+  "items": [
+   {
+    "product": "shakar",
+    "price": 14500,
+    "trade": "chakana"
+   }
+  ],
+  "note": "Russian per kg"
+ },
+ {
+  "id": "p71",
+  "text": "Картофель оптом 3800, 5 тонн",
+  "items": [
+   {
+    "product": "kartoshka",
+    "price": 3800,
+    "trade": "ulgurji",
+    "qty": 5000
+   }
+  ],
+  "note": "Russian tonnes"
+ },
+ {
+  "id": "p72",
+  "text": "pomidor 9 ming, bodring 7 ming, optom",
+  "items": [
+   {
+    "product": "pomidor",
+    "price": 9000,
+    "trade": "ulgurji"
+   },
+   {
+    "product": "bodring",
+    "price": 7000,
+    "trade": "ulgurji"
+   }
+  ],
+  "note": "two with ming"
+ }
+]

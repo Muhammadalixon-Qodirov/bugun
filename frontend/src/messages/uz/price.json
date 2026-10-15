@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "title": "Narx joylash"
+  },
+  "eyebrow": "Tadbirkor",
+  "title": "Narx joylash",
+  "description": "Narxni oddiy matn bilan yozing. Bozordagi o'rningizni ko'rasiz va xaridor so'rovlarini olasiz. Botga yozsangiz ham bo'ladi.",
+  "sellersOnly": {
+    "title": "Narx joylash tadbirkorlar uchun",
+    "description": "Bozor ma'muriyati hisobi narxlarni kuzatadi va hisobot oladi, lekin sotmaydi. Hisobotlar kabinetda.",
+    "action": "Kabinetga o'tish"
+  },
+  "reviewTitle": "Tekshiring",
+  "reviewHint": "tasdiqlanmagan narx saqlanmaydi",
+  "confirm": "To'g'ri",
+  "fix": "Tuzatish",
+  "textLabel": "Narx matni",
+  "notRecognised": "Xabarda mahsulot tanilmadi. Mahsulot nomi va narxini yozing, masalan: kartoshka 4500.",
+  "check": "Tekshirish",
+  "checking": "Tekshirilmoqda…",
+  "shortcut": "⌘ + Enter — tekshirish",
+  "result": {
+    "title": "{count} ta narx saqlandi",
+    "previous": "Oldingi narx:",
+    "unchanged": "Narx oldingisi bilan bir xil.",
+    "position": "<b>{total}</b> sotuvchi ichida <b>{rank}-o'rindasiz</b> · o'rtacha <b>{price}</b> so'm ({diff})",
+    "review": "Narx odatdagidan juda farq qiladi, tekshiruvdan so'ng chiqadi.",
+    "rejected": "Bu mahsulot bo'yicha e'loningizni administrator avval rad etgan, narx xaridorlarga chiqmaydi. Mahsulotlarim'da uni o'chirib, qayta joylang.",
+    "fewPrices": "Viloyatingizda bu mahsulot bo'yicha narxlar hali kam: o'rningiz keyinroq ko'rinadi.",
+    "again": "Yana narx yuborish",
+    "mine": "Mahsulotlarim"
+  },
+  "parser": {
+    "problems": {
+      "no_price": "{product}: narx topilmadi. Masalan: «{example} 4500».",
+      "unknown_unit": "{product}: «{unit}» necha {baseUnit} ekanini bilmaymiz. Narxni 1 {baseUnit} uchun yozing.",
+      "bad_price": "{product}: narx {price} so'm — noto'g'ri ko'rinadi.",
+      "bad_quantity": "{product}: hajm noto'g'ri ko'rinadi.",
+      "no_product": "Mahsulot tanilmadi. Masalan: «kartoshka 200 kg»."
+    },
+    "hints": {
+      "read_as_thousands": "«{written}» {price} so'm deb tushunildi",
+      "converted": "1 {unit} = {amount} {baseUnit} bo'yicha hisoblandi",
+      "by_model": "Sun'iy intellekt o'qidi",
+      "matched": "«{written}» {product} deb tanildi"
+    },
+    "units": {
+      "qop": "qop",
+      "yashik": "yashik",
+      "karobka": "karobka",
+      "lotok": "lotok",
+      "tonna": "tonna",
+      "gramm": "gramm",
+      "dona": "dona"
+    }
+  },
+  "channelTip": "Telegram kanalingiz yoki guruhingiz bo'lsa, botni unga admin qilib qo'shing: postlardagi narxlar platformaga o'zi tushadi.",
+  "voice": {
+    "start": "Ovoz bilan",
+    "stop": "To'xtatish",
+    "transcribing": "Matnga o'girilmoqda…",
+    "empty": "Yozuvda gap tanilmadi. Qayta urinib ko'ring yoki matn bilan yozing.",
+    "denied": "Mikrofonga ruxsat berilmadi. Brauzer sozlamalarida ruxsat bering yoki matn bilan yozing.",
+    "unsupported": "Bu brauzer ovoz yozishni qo'llamaydi. Matn bilan yozing."
+  },
+  "photo": {
+    "button": "Suratdan",
+    "reading": "Surat o'qilmoqda…"
+  },
+  "suggestions": {
+    "title": "«{word}» — qaysi mahsulot? Tanlang:"
+  },
+  "guide": {
+    "title": "Qanday yozish kerak",
+    "text": "Mahsulot nomi va narxini yozing. Miqdor, birlik va savdo turi ixtiyoriy.",
+    "examples": {
+      "tonnes": "Kartoshka, 1 kg uchun 4 500 so'm, 2 tonna bor",
+      "perKilo": "Piyoz, 1 kg uchun 3 800 so'm",
+      "wholesale": "Olma, ulgurji: yashik narxi kilogrammga o'giriladi"
+    },
+    "lines": "Bir nechta mahsulot bo'lsa, har birini yangi qatorga yozing. Saqlashdan oldin hammasini tekshirasiz.",
+    "voice": "Ovoz bilan: {seconds} soniyagacha gapiring, matn qutiga tushadi.",
+    "photo": "Suratdan: narx yozilgan taxta yoki qog'ozni suratga oling.",
+    "mineTitle": "Mahsulotlarim",
+    "mineText": "E'lonlar, narxlar va muddatlar"
+  }
+}
